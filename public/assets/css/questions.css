@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Jumbalo", sans-serif;
-  src: url("../font/Jumbalo.ttf") format("opentype");
-}
-@font-face {
-  font-family: "Dinomouse", sans-serif;
-  src: url("../font/Dinomouse.otf") format("truetype");
-}
 * {
   font-family: Jumbalo, "roboto", "sans-serif";
   font-weight: 100;
@@ -127,13 +119,4 @@ main ol.list-response li::before {
 }
 main ol.list-response li:hover {
   cursor: pointer;
-}
-
-.button .div_1 {
-  display: flex;
-}
-.button .div_1 button {
-  flex-basis: 50%;
-}
-
-/*# sourceMappingURL=questions.css.map */
+}/*# sourceMappingURL=questions.css.map */
