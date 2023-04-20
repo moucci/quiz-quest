@@ -9,7 +9,7 @@ main {
   align-items: center;
   gap: 50px;
   background-color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 
 
   .score_txt {
@@ -17,7 +17,7 @@ main {
     background-color: $colorInput;
     width: 90%;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: 20px auto;
     font-size: 40px;
     text-align: center;
     position: relative;
