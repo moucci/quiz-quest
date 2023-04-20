@@ -1,3 +1,71 @@
+@font-face {
+  font-family: "Jumbalo", sans-serif;
+  src: url("../font/Jumbalo.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Dinomouse", sans-serif;
+  src: url("../font/Dinomouse.otf") format("truetype");
+}
+* {
+  font-family: Jumbalo, "roboto", "sans-serif";
+  font-weight: 100;
+  box-sizing: border-box;
+}
 
+body {
+  background: url("/assests/img/bg-global.svg") repeat-y;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+body .txt-jumbalo {
+  font-family: Jumbalo, sans-serif;
+}
+body .btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(51, 106, 114, 0.7);
+  padding: 0px 30px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+body .btn_brd_blk {
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+body .shadow {
+  box-shadow: 1px 3px 7px #000;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 20px;
+}
+main .score_txt {
+  padding: 60px 20px;
+  background-color: rgba(93, 155, 164, 0.7);
+  width: 90%;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  text-shadow: rgb(254, 222, 43) 7px 0px 0px, rgb(254, 222, 43) 6.92869px 0.996602px 0px, rgb(254, 222, 43) 6.71622px 1.9729px 0px, rgb(254, 222, 43) 6.36692px 2.909px 0px, rgb(254, 222, 43) 5.8879px 3.78584px 0px, rgb(254, 222, 43) 5.28893px 4.58555px 0px, rgb(254, 222, 43) 4.5822px 5.29183px 0px, rgb(254, 222, 43) 3.78212px 5.8903px 0px, rgb(254, 222, 43) 2.90498px 6.36876px 0px, rgb(254, 222, 43) 1.96865px 6.71747px 0px, rgb(254, 222, 43) 0.992221px 6.92932px 0px, rgb(254, 222, 43) -0.00442571px 7px 0px, rgb(254, 222, 43) -1.00098px 6.92806px 0px, rgb(254, 222, 43) -1.97715px 6.71498px 0px, rgb(254, 222, 43) -2.91303px 6.36508px 0px, rgb(254, 222, 43) -3.78956px 5.88551px 0px, rgb(254, 222, 43) -4.58889px 5.28603px 0px, rgb(254, 222, 43) -5.29472px 4.57885px 0px, rgb(254, 222, 43) -5.89269px 3.77839px 0px, rgb(254, 222, 43) -6.3706px 2.90095px 0px, rgb(254, 222, 43) -6.71871px 1.96441px 0px, rgb(254, 222, 43) -6.92995px 0.98784px 0px, rgb(254, 222, 43) -6.99999px -0.00885142px 0px, rgb(254, 222, 43) -6.92743px -1.00536px 0px, rgb(254, 222, 43) -6.71372px -1.98139px 0px, rgb(254, 222, 43) -6.36324px -2.91705px 0px, rgb(254, 222, 43) -5.88311px -3.79328px 0px, rgb(254, 222, 43) -5.28313px -4.59223px 0px, rgb(254, 222, 43) -4.57551px -5.29762px 0px, rgb(254, 222, 43) -3.77466px -5.89507px 0px, rgb(254, 222, 43) -2.89692px -6.37243px 0px, rgb(254, 222, 43) -1.96016px -6.71995px 0px, rgb(254, 222, 43) -0.983458px -6.93057px 0px, rgb(254, 222, 43) 0.0132771px -6.99999px 0px, rgb(254, 222, 43) 1.00974px -6.92679px 0px, rgb(254, 222, 43) 1.98564px -6.71247px 0px, rgb(254, 222, 43) 2.92107px -6.36139px 0px, rgb(254, 222, 43) 3.797px -5.88071px 0px, rgb(254, 222, 43) 4.59557px -5.28022px 0px, rgb(254, 222, 43) 5.30051px -4.57215px 0px, rgb(254, 222, 43) 5.89746px -3.77094px 0px, rgb(254, 222, 43) 6.37426px -2.89289px 0px, rgb(254, 222, 43) 6.72119px -1.95591px 0px, rgb(254, 222, 43) 6.93119px -0.979076px 0px;
+}
+main .score_txt:before {
+  content: "";
+  width: 317px;
+  height: 298px;
+  background: url("../img/the-king.svg") no-repeat;
+  display: block;
+  position: absolute;
+  top: -250px;
+  left: 50px;
+}
 
 /*# sourceMappingURL=score.css.map */
