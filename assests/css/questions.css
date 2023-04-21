@@ -20,9 +20,13 @@ body {
 }
 body main {
   overflow: hidden;
+  margin: 0 auto;
 }
 body .txt-jumbalo {
   font-family: Jumbalo, sans-serif;
+}
+body .txt-dinamouse {
+  font-family: Dinomouse, sans-serif;
 }
 body .btn {
   text-decoration: none;
@@ -32,11 +36,16 @@ body .btn {
   border-radius: 25px;
   font-size: 20px;
 }
-body .btn_brd_blk {
+body .btn_brd_blk, body main ol.list-response li, main ol.list-response body li {
   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 body .shadow {
   box-shadow: 1px 3px 7px #000;
+}
+body .rotate {
+  display: inline-block;
+  margin: 0 10px;
+  transform: rotate(20deg);
 }
 
 main {
@@ -45,6 +54,8 @@ main {
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 main div.header {
   padding: 0 10px;
@@ -53,6 +64,12 @@ main div.header {
   font-size: 24px;
   color: white;
   text-shadow: 0px 5px 15px #000;
+}
+main div.header .score {
+  font-size: 90%;
+}
+main div.header .score:nth-of-type(3) {
+  padding-top: 13px;
 }
 main div.header .timer {
   text-align: center;
@@ -102,19 +119,27 @@ main div.header .timer .timer-graphic .circle {
   transform: translate(-50%, -50%);
   background-image: repeating-conic-gradient(from 0deg, #343434 0deg 0deg, #FFD005 0deg 360deg);
 }
+main div.header .nb-question {
+  font-size: 35px;
+  align-self: flex-end;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
 main p.text-question, main .list-response li {
   background-color: rgba(93, 155, 164, 0.7);
   padding: 15px;
   border-radius: 25px;
   color: white;
   font-family: "Dinomouse", "roboto", "sans-serif";
-  text-shadow: 2px 5px 10px #000;
+  letter-spacing: 2px;
   line-height: 25px;
   font-size: 1.5em;
   margin: 0;
 }
 main p.text-question {
   position: relative;
+  margin-bottom: 60px;
+  line-height: 30px;
 }
 main p.text-question:before {
   content: "";
@@ -123,15 +148,17 @@ main p.text-question:before {
   display: block;
   position: absolute;
   background: url("/assests/img/really.svg") no-repeat;
-  top: -97px;
-  right: 50px;
+  top: -93px;
+  right: 0px;
 }
 main ol.list-response {
+  height: 100%;
+  max-height: 500px;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
   counter-reset: alphabet-counter;
   list-style-type: none;
 }
@@ -142,11 +169,12 @@ main ol.list-response li {
 main ol.list-response li::before {
   content: "( " counter(alphabet-counter, upper-alpha) " ) ";
   counter-increment: alphabet-counter;
-  color: rgba(77, 6, 93, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
 }
 main ol.list-response li:hover {
   cursor: pointer;
+  background-color: rgba(123, 154, 161, 0.5);
 }
 
 /*# sourceMappingURL=questions.css.map */

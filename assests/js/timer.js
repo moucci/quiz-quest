@@ -38,7 +38,9 @@ start_timer = () => {
     }, 1000);
 }
 
-// start_timer();
+ // start_timer();
+
+
 
 /**
  * function stop timer & reset timer with arrow and conic position
