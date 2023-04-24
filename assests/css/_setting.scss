@@ -27,11 +27,17 @@ body {
 
   main{
     overflow: hidden;
+    //max-width: 480px;
+    margin: 0 auto;
   }
 
   //font jumbalo
   .txt-jumbalo{
     font-family: Jumbalo , sans-serif;
+  }
+
+  .txt-dinamouse{
+    font-family: Dinomouse , sans-serif;
   }
 
   //btn with jumbalo font
@@ -52,6 +58,13 @@ body {
   //box-shadow black
   .shadow{
     box-shadow: 1px 3px 7px #000;
+  }
+
+  //font-rotate
+  .rotate{
+    display: inline-block;
+    margin: 0 10px ;
+    transform: rotate(20deg);
   }
 
 

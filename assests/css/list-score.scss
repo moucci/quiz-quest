@@ -4,7 +4,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
   height: 100vh;
 
   ul.list-score-ul {
@@ -17,7 +16,8 @@ main {
     list-style-type: none;
     padding: 60px 20px;
     font-size: 20px;
-    overflow-y: scroll;
+    //overflow-y: scroll;
+    position: relative;
 
     &::-webkit-scrollbar {
       display: none;
@@ -30,9 +30,10 @@ main {
       display: block;
       background: url("../img/crown.png");
       position: absolute;
-      top: 75px;
+      top: -110px;
       left: 50%;
       transform: translateX(-40%);
+
     }
 
     li {

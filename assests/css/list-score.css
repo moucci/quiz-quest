@@ -20,9 +20,13 @@ body {
 }
 body main {
   overflow: hidden;
+  margin: 0 auto;
 }
 body .txt-jumbalo {
   font-family: Jumbalo, sans-serif;
+}
+body .txt-dinamouse {
+  font-family: Dinomouse, sans-serif;
 }
 body .btn {
   text-decoration: none;
@@ -38,12 +42,16 @@ body .btn_brd_blk {
 body .shadow {
   box-shadow: 1px 3px 7px #000;
 }
+body .rotate {
+  display: inline-block;
+  margin: 0 10px;
+  transform: rotate(20deg);
+}
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
   height: 100vh;
 }
 main ul.list-score-ul {
@@ -56,7 +64,7 @@ main ul.list-score-ul {
   list-style-type: none;
   padding: 60px 20px;
   font-size: 20px;
-  overflow-y: scroll;
+  position: relative;
 }
 main ul.list-score-ul::-webkit-scrollbar {
   display: none;
@@ -68,7 +76,7 @@ main ul.list-score-ul:before {
   display: block;
   background: url("../img/crown.png");
   position: absolute;
-  top: 75px;
+  top: -110px;
   left: 50%;
   transform: translateX(-40%);
 }
