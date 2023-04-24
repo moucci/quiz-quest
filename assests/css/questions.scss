@@ -1,30 +1,4 @@
-@font-face {
-  font-family: 'Jumbalo', sans-serif;
-  src: url("../font/Jumbalo.ttf") format('opentype');
-}
-
-@font-face {
-  font-family: 'Dinomouse', sans-serif;
-  src: url("../font/Dinomouse.otf") format('truetype');
-}
-
-* {
-  //font-family: "Dinomouse", "roboto", "sans-serif";
-  font-family: Jumbalo, "roboto", "sans-serif";
-  font-weight: 100;
-  box-sizing: border-box;
-}
-
-$font-input: "Dinomouse", "roboto", "sans-serif";
-$colorInput: rgba(93, 155, 164, 0.7);
-
-
-body {
-  background: url("/assests/img/bg-global.svg") repeat-y;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
+@import "setting";
 
 main {
   height: 100vh;
@@ -32,6 +6,8 @@ main {
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
 
   div.header {
     padding: 0 10px;
@@ -40,6 +16,13 @@ main {
     font-size: 24px;
     color: white;
     text-shadow: 0px 5px 15px #000;
+
+    .score {
+      font-size: 90%;
+      &:nth-of-type(3){
+        padding-top: 13px;
+      }
+    }
 
     .timer {
       text-align: center;
@@ -98,6 +81,14 @@ main {
       }
 
     }
+
+
+    .nb-question {
+      font-size: 35px;
+      align-self: flex-end;
+      padding-right: 20px;
+      padding-bottom: 15px;
+    }
   }
 
   p.text-question, .list-response li {
@@ -106,15 +97,19 @@ main {
     border-radius: 25px;
     color: white;
     font-family: $font-input;
-    text-shadow: 2px 5px 10px #000;
+    letter-spacing: 2px;
+    //text-shadow: 2px 5px 10px #000;
     line-height: 25px;
     font-size: 1.5em;
     margin: 0;
+
 
   }
 
   p.text-question {
     position: relative;
+    margin-bottom: 60px;
+    line-height: 30px;
 
     &:before {
       content: "";
@@ -123,57 +118,44 @@ main {
       display: block;
       position: absolute;
       background: url("/assests/img/really.svg") no-repeat;
-      top: -97px;
-      right: 50px;
+      top: -93px;
+      right: 0px;
     }
   }
 
   ol.list-response {
+    height: 100%;
+    max-height: 500px;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
     counter-reset: alphabet-counter;
     list-style-type: none;
+
 
     li {
       padding: 20px 10px;
       transition: padding 0.1s ease-in-out;
+      @extend .btn_brd_blk ;
 
 
       &::before {
         content: "( " counter(alphabet-counter, upper-alpha) " ) ";
         counter-increment: alphabet-counter;
-        color: rgba(77, 6, 93, 0.7);
+        color: rgba(255, 255, 255, 0.7);
         font-weight: bold;
       }
 
       &:hover {
         cursor: pointer;
-        //padding: 20px 10px;
+        background-color: rgba(123, 154, 161, 0.5);
       }
 
     }
   }
-
+  
 }
 
-
-.button {
-
-  .div_1 {
-    display: flex;
-
-    button {
-      flex-basis: 50%;
-    }
-  }
-
-  .div_2 {
-
-  }
-
-
-}
 
