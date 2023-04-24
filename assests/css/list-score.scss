@@ -1,0 +1,51 @@
+@import "setting";
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+
+  ul.list-score-ul {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    min-height: 50vh;
+    background-color: $colorInput;
+    border-radius: 25px;
+    list-style-type: none;
+    padding: 60px 20px;
+    font-size: 20px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &:before {
+      content: "";
+      width: 160px;
+      height: 160px;
+      display: block;
+      background: url("../img/crown.png");
+      position: absolute;
+      top: 75px;
+      left: 50%;
+      transform: translateX(-40%);
+    }
+
+    li {
+      background-color: transparent;
+    }
+
+
+  }
+
+  .btn_back {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+}

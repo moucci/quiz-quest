@@ -1,30 +1,4 @@
-@font-face {
-  font-family: 'Jumbalo', sans-serif;
-  src: url("../font/Jumbalo.ttf") format('opentype');
-}
-
-@font-face {
-  font-family: 'Dinomouse', sans-serif;
-  src: url("../font/Dinomouse.otf") format('truetype');
-}
-
-* {
-  //font-family: "Dinomouse", "roboto", "sans-serif";
-  font-family: Jumbalo, "roboto", "sans-serif";
-  font-weight: 100;
-  box-sizing: border-box;
-}
-
-$font-input: "Dinomouse", "roboto", "sans-serif";
-$colorInput: rgba(93, 155, 164, 0.7);
-
-
-body {
-  background: url("/assests/img/bg-global.svg") repeat-y;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
+@import "setting";
 
 main {
   height: 100vh;
@@ -159,21 +133,4 @@ main {
 
 }
 
-
-.button {
-
-  .div_1 {
-    display: flex;
-
-    button {
-      flex-basis: 50%;
-    }
-  }
-
-  .div_2 {
-
-  }
-
-
-}
 

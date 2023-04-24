@@ -1,98 +1,111 @@
+@import "../css/setting";
 
 
-@font-face {
-    font-family: 'Jumbalo', sans-serif;
-    src: url("../font/Jumbalo.ttf") format('trueType');
-}
 
-@font-face {
-    font-family: 'Dinamouse', sans-serif;
-    src: url("../font/Dinomouse.otf") format('trueType');
-}
-
-* {
-    box-sizing: border-box;
-    font-family: 'Jumbalo';
-    font-weight: 100;
-}
-
-body {
-    background-image: url(../../assests/img/bg-global.svg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
 
 main {
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    gap: 50px;
+    justify-content: space-between;
+
+
+
+    header {
+        h1 {
+            color: white;
+            margin-right: 15px;
+            font-size: 20px;
+            text-align: right;
+            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+        }
+    }
+
+    /***Section1****/
+.section1 {
+    div {
+        display: flex;
+        justify-content: space-around;
+
+        input::placeholder {
+            color: white;
+            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+        }
+
+      img{
+      background-size: cover;
+       width: 64px;
+   }
+
+        .anonime {
+            padding: 0 10px;
+            font-size: 32px;
+            width: 283px;
+            height: 53px;
+            border-radius: 15px;
+            background-color: rgba(93, 155, 164, 0.7);
+            border: none;
+            text-align: center;
+            color: white;
+
+        }
+
+        .anonime:active {
+            border: none;
+        }
+
+    }
+
+    .text {
+
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 28px;
+
+
+
+        h2 {
+            font-family: 'Dinomouse', sans-serif;
+            font-size: 1.75rem;
+            color: white;
+            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+        }
+
+        h3 {
+            font-family: 'Dinomouse', sans-serif;
+            font-size: 2rem;
+            color: white;
+            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+        }
+
+    }
+
+
+
 }
 
-header h1 {
-    color: white;
-    display: flex;
-    justify-content: end;
-    margin-right: 15px;
-    font-size: 20px;
-}
-/***Section1****/
-.section1 div {
-    display: flex;
-    justify-content: space-around;
-}
 
-.anonime {
-    padding: 0 10px;
-    font-size: 32px;
-    width: 283px;
-    height: 53px;
-    border-radius: 15px;
-    background-color: rgba(93, 155, 164, 0.7);
-    border: none;
-    text-align: center;
-    color: white;
 
-}
-
-.anonime:active {
-    border: none;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 28px;
-    text-shadow: 3px 3px 0 #FFFFFF;
-}
-
-.text h2 {
-    font-family: 'Dinomouse', sans-serif;
-    font-size: 1.75rem;
-}
-
-.text h3 {
-    font-family: 'Dinomouse', sans-serif;
-    font-size: 2rem;
-}
 /****Section buttons*****/
 .buttons {
     position: absolute;
-    bottom: 0;
+    bottom: 158px;
     width: 100%;
 
     .div1 {
         position: relative;
         display: flex;
-        bottom: 158px;
+        
 
         button {
             display: inline-block;
             flex-basis: 50%;
-
+            border: none;
+            font-size: 100%;
+            color: white;
 
 
             &.b1 {
@@ -101,17 +114,19 @@ header h1 {
                 height: 158px;
                 width: 60%;
                 position: absolute;
-                
-            }
-            &.b2{
 
-                   background-color: rgba(245, 115, 43, 0.89);
-                   clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
-                   height: 158px;
-                   width: 60%;
-                   position: absolute;
-                   right: 0;
-                 }
+            }
+
+
+            &.b2 {
+
+                background-color: rgba(245, 115, 43, 0.89);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+                height: 158px;
+                width: 60%;
+                position: absolute;
+                right: 0;
+            }
 
 
 
@@ -123,31 +138,39 @@ header h1 {
     .div2 {
         position: relative;
         display: flex;
-
+        margin-top: 157px;
+      
         button {
             display: inline-block;
             flex-basis: 50%;
+            color: white;
+
+            border: none;
+    
 
 
 
-
-            &.b3{
-                  background-color: rgba(255, 5, 4, 0.84);
-                   clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
-                   height: 158px;
-                   width: 60%;
-                   position: absolute;
-                //    right: 0;
+            &.b3 {
+                background-color: rgba(255, 5, 4, 0.84);
+                clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+                height: 158px;
+                width: 60%;
+                position: absolute;
             }
-            &.b4{
-                  background-color: rgba(246, 49, 156, 0.89);
-                   clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
-                   height: 158px;
-                   width: 60%;
-                   position: absolute;
-                   right: 0;
-                 }
 
+            &.b4 {
+                background-color: rgba(246, 49, 156, 0.89);
+                clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
+                height: 158px;
+                width: 60%;
+                position: absolute;
+                right: 0;
+            }
+
+        }
     }
 }
 }
+
+
+
