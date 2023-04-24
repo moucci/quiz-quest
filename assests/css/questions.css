@@ -199,4 +199,13 @@ iframe {
   display: none;
 }
 
+<<<<<<< HEAD
+.button .div_1 {
+  display: flex;
+}
+.button .div_1 button {
+  flex-basis: 50%;
+}/*# sourceMappingURL=questions.css.map */
+=======
 /*# sourceMappingURL=questions.css.map */
+>>>>>>> 97cc5f7f41c35c52ee569e5a0157f3c02caac117

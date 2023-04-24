@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+/*# sourceMappingURL=score.css.map */
+=======
 @font-face {
   font-family: "Jumbalo", sans-serif;
   src: url("../font/Jumbalo.ttf") format("opentype");
@@ -79,3 +82,4 @@ main .score_txt:before {
   top: -250px;
   left: 50px;
 }/*# sourceMappingURL=score.css.map */
+>>>>>>> 97cc5f7f41c35c52ee569e5a0157f3c02caac117
