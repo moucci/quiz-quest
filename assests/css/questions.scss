@@ -19,15 +19,31 @@ main {
 
     .score {
       font-size: 90%;
+
       &:nth-of-type(3){
         padding-top: 13px;
       }
+
+
     }
 
     .timer {
       text-align: center;
       color: #E2F500;
       padding: 20px;
+
+
+      @keyframes zoom-in-zoom-level-1 {
+        0% {
+          transform: scale(0.8, 0.8);
+        }
+        50% {
+          transform: scale(1, 1);
+        }
+        100% {
+          transform: scale(0.8, 0.8);
+        }
+      }
 
       .timer-graphic {
         width: 70px;
@@ -36,6 +52,9 @@ main {
         border: 2px solid #000000;
         background-color: #FFDB01;
         position: relative;
+        animation: zoom-in-zoom-level-1 30s ease infinite;
+
+
 
 
         &:before {
@@ -77,6 +96,9 @@ main {
           transform: translate(-50%, -50%);
           background-image: repeating-conic-gradient(from 0deg, #343434 0deg 0deg, #FFD005 0deg 360deg);
         }
+
+
+
 
       }
 
@@ -155,7 +177,19 @@ main {
 
     }
   }
-  
+
+
+
+}
+
+iframe{
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
 }
 
 

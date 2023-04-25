@@ -76,6 +76,17 @@ main div.header .timer {
   color: #E2F500;
   padding: 20px;
 }
+@keyframes zoom-in-zoom-level-1 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
 main div.header .timer .timer-graphic {
   width: 70px;
   height: 70px;
@@ -83,6 +94,7 @@ main div.header .timer .timer-graphic {
   border: 2px solid #000000;
   background-color: #FFDB01;
   position: relative;
+  animation: zoom-in-zoom-level-1 30s ease infinite;
 }
 main div.header .timer .timer-graphic:before {
   content: "";
@@ -97,8 +109,7 @@ main div.header .timer .timer-graphic:before {
   z-index: 10;
 }
 main div.header .timer .timer-graphic .arrow {
-  -webkit-clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
-          clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
+  clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
   position: absolute;
   width: 12px;
   height: 42px;
@@ -176,4 +187,29 @@ main ol.list-response li::before {
 main ol.list-response li:hover {
   cursor: pointer;
   background-color: rgba(123, 154, 161, 0.5);
+<<<<<<< HEAD
 }/*# sourceMappingURL=questions.css.map */
+=======
+}
+
+iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+<<<<<<< HEAD
+.button .div_1 {
+  display: flex;
+}
+.button .div_1 button {
+  flex-basis: 50%;
+}/*# sourceMappingURL=questions.css.map */
+=======
+/*# sourceMappingURL=questions.css.map */
+>>>>>>> 97cc5f7f41c35c52ee569e5a0157f3c02caac117
+>>>>>>> 32f269767b8d95b7ce4f5229e52728d232536801
