@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Jumbalo", sans-serif;
+  font-family: Jumbalo, sans-serif;
   src: url("../font/Jumbalo.ttf") format("opentype");
 }
 @font-face {
-  font-family: "Dinomouse", sans-serif;
-  src: url("../font/Dinomouse.otf") format("truetype");
+  font-family: Dinomouse, sans-serif;
+  src: url("../font/Dinomouse.otf") format("opentype");
 }
 * {
   font-family: Jumbalo, "roboto", "sans-serif";
@@ -98,6 +98,4 @@ main .btn_back {
   position: absolute;
   bottom: 20px;
   right: 20px;
-}
-
-/*# sourceMappingURL=list-score.css.map */
+}/*# sourceMappingURL=list-score.css.map */
