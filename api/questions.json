@@ -1,130 +1,398 @@
-{
-  "quiz": [
-    {
-      "question": "Qu'est-ce que PHP ?",
-      "answers": [
-        {
-          "text": "Un logiciel de montage vidéo",
-          "correct": false
-        },
-        {
-          "text": "Un langage de programmation",
-          "correct": true
-        },
-        {
-          "text": "Un système d'exploitation",
-          "correct": false
-        },
-        {
-          "text": "Un navigateur web",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Que signifie l'acronyme PHP ?",
-      "answers": [
-        {
-          "text": "Personal Hypertext Processor",
-          "correct": false
-        },
-        {
-          "text": "Preprocessed Hypertext Pages",
-          "correct": false
-        },
-        {
-          "text": "PHP Hypertext Preprocessor",
-          "correct": true
-        },
-        {
-          "text": "Public Hyperlink Provider",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Quelle est la dernière version stable de PHP ?",
-      "answers": [
-        {
-          "text": "PHP 5.6",
-          "correct": false
-        },
-        {
-          "text": "PHP 7.0",
-          "correct": false
-        },
-        {
-          "text": "PHP 7.4",
-          "correct": true
-        },
-        {
-          "text": "PHP 8.0",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Qu'est-ce qu'un framework PHP ?",
-      "answers": [
-        {
-          "text": "Un langage de programmation similaire à PHP",
-          "correct": false
-        },
-        {
-          "text": "Un outil qui facilite la création d'applications web en PHP",
-          "correct": true
-        },
-        {
-          "text": "Un environnement de développement intégré pour PHP",
-          "correct": false
-        },
-        {
-          "text": "Un serveur web pour exécuter des scripts PHP",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Quelle est la syntaxe pour afficher le contenu d'une variable en PHP ?",
-      "answers": [
-        {
-          "text": "echo(variable)",
-          "correct": false
-        },
-        {
-          "text": "print(variable)",
-          "correct": false
-        },
-        {
-          "text": "echo $variable;",
-          "correct": true
-        },
-        {
-          "text": "print($variable);",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Qu'est-ce qu'une fonction en PHP ?",
-      "answers": [
-        {
-          "text": "Un fichier qui contient des instructions PHP",
-          "correct": false
-        },
-        {
-          "text": "Une variable qui stocke des données en PHP",
-          "correct": false
-        },
-        {
-          "text": "Un bloc de code réutilisable qui effectue une tâche spécifique en PHP",
-          "correct": true
-        },
-        {
-          "text": "Une boucle qui exécute un code plusieurs fois en PHP",
-          "correct": false
-        }
-      ]
-    }
-  ]
-}
+[
+	{
+		"id": 24,
+		"text": "Lequel de ces sélecteurs a la spécificité la plus élevée ?",
+		"answers": [
+			{
+				"text": "#content",
+				"is_correct": true
+			},
+			{
+				"text": ":first-child",
+				"is_correct": false
+			},
+			{
+				"text": "main",
+				"is_correct": false
+			},
+			{
+				"text": ".col",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 8,
+		"text": "Où peut-on utiliser la balise <style> ?",
+		"answers": [
+			{
+				"text": "<header>",
+				"is_correct": false
+			},
+			{
+				"text": "Où on veut",
+				"is_correct": false
+			},
+			{
+				"text": "<body>",
+				"is_correct": false
+			},
+			{
+				"text": "<head>",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 5,
+		"text": "Que signifie HTML ?",
+		"answers": [
+			{
+				"text": "HyperText Markup Language",
+				"is_correct": true
+			},
+			{
+				"text": "HyperText Markdown Language",
+				"is_correct": false
+			},
+			{
+				"text": "High Technology Markup Language",
+				"is_correct": false
+			},
+			{
+				"text": "Hyper Total Markdown Language",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 10,
+		"text": "Laquelle des balises suivantes est utilisée pour créer une liste ordonnée ?",
+		"answers": [
+			{
+				"text": "<ol>",
+				"is_correct": true
+			},
+			{
+				"text": "<list>",
+				"is_correct": false
+			},
+			{
+				"text": "<dl>",
+				"is_correct": false
+			},
+			{
+				"text": "<ul>",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 14,
+		"text": "Laquelle des balises HTML suivantes n'est pas valide ?",
+		"answers": [
+			{
+				"text": "<em>",
+				"is_correct": false
+			},
+			{
+				"text": "<picture>",
+				"is_correct": false
+			},
+			{
+				"text": "<code>",
+				"is_correct": false
+			},
+			{
+				"text": "<image>",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 15,
+		"text": "Lequel de ces champs de formulaire HTML doit être utilisé pour afficher plusieurs options mais n'autoriser qu'un seul choix ?",
+		"answers": [
+			{
+				"text": "<form>",
+				"is_correct": false
+			},
+			{
+				"text": "<options type=\"radio\">",
+				"is_correct": false
+			},
+			{
+				"text": "<input type=\"checkbox\">",
+				"is_correct": false
+			},
+			{
+				"text": "<input type=\"radio\">",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 2,
+		"text": "A quoi sert la balise <br> selon le standard HTML ?",
+		"answers": [
+			{
+				"text": "Insérer un saut de ligne dans un paragraphe",
+				"is_correct": false
+			},
+			{
+				"text": "Insérer des lignes blanches entre les paragraphes",
+				"is_correct": false
+			},
+			{
+				"text": "Cette balise n'existe pas",
+				"is_correct": false
+			},
+			{
+				"text": "Insérer un retour à la ligne dans certains cas spécifiques (adresses, poêmes)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 4,
+		"text": "L'attribut \"alt\" de la balise <img> est utilisé pour...",
+		"answers": [
+			{
+				"text": "Toutes les réponses sont correctes",
+				"is_correct": true
+			},
+			{
+				"text": "Le référencement (SEO) pour mieux indexer les images",
+				"is_correct": false
+			},
+			{
+				"text": "Remplacer l'image par le texte si l'image n'a pas été chargée",
+				"is_correct": false
+			},
+			{
+				"text": "Les logiciels de lecture d'écran qui liront son contenu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 25,
+		"text": "Je veux avoir des coins arrondis pour mon élément, quelle propriété dois-je utiliser?",
+		"answers": [
+			{
+				"text": "rounded",
+				"is_correct": false
+			},
+			{
+				"text": "border-rounded",
+				"is_correct": false
+			},
+			{
+				"text": "border-radius",
+				"is_correct": true
+			},
+			{
+				"text": "radius",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 16,
+		"text": "Que veut dire CSS ?",
+		"answers": [
+			{
+				"text": "Colorful Style Sheets",
+				"is_correct": false
+			},
+			{
+				"text": "Creative Style Sheets",
+				"is_correct": false
+			},
+			{
+				"text": "Computer Style Sheets",
+				"is_correct": false
+			},
+			{
+				"text": "Cascading Style Sheets",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 7,
+		"text": "L'élément <title> doit être situé dans",
+		"answers": [
+			{
+				"text": "<body>",
+				"is_correct": false
+			},
+			{
+				"text": "<head>",
+				"is_correct": true
+			},
+			{
+				"text": "Où on veut",
+				"is_correct": false
+			},
+			{
+				"text": "<header>",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 6,
+		"text": "Quelle est la différence entre une balise ouvrante et une balise fermante ?",
+		"answers": [
+			{
+				"text": "La balise de fermeture se termine par !>",
+				"is_correct": false
+			},
+			{
+				"text": "La balise de fermeture commence par <!",
+				"is_correct": false
+			},
+			{
+				"text": "La balise de fermeture commence par <\/",
+				"is_correct": true
+			},
+			{
+				"text": "La balise de fermeture se termine par \/>",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 13,
+		"text": "Quelle est la balise correcte pour créer un nouveau paragraphe ?",
+		"answers": [
+			{
+				"text": "<p>",
+				"is_correct": true
+			},
+			{
+				"text": "<hr>",
+				"is_correct": false
+			},
+			{
+				"text": "<br>",
+				"is_correct": false
+			},
+			{
+				"text": "<div>",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 12,
+		"text": "Laquelle des balises de tableau suivantes est utilisée pour créer une ligne de tableau ?",
+		"answers": [
+			{
+				"text": "<td>",
+				"is_correct": false
+			},
+			{
+				"text": "<table>",
+				"is_correct": false
+			},
+			{
+				"text": "<tbody>",
+				"is_correct": false
+			},
+			{
+				"text": "<tr>",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"id": 9,
+		"text": "Quelle balise est utilisée pour créer un lien hypertexte ?",
+		"answers": [
+			{
+				"text": "<h1>",
+				"is_correct": false
+			},
+			{
+				"text": "<hyperlink>",
+				"is_correct": false
+			},
+			{
+				"text": "<a>",
+				"is_correct": true
+			},
+			{
+				"text": "<link>",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 11,
+		"text": "Comment écrire un commentaire HTML ?",
+		"answers": [
+			{
+				"text": "// Commentaire",
+				"is_correct": false
+			},
+			{
+				"text": "Les commentaires n'existent pas en HTML",
+				"is_correct": false
+			},
+			{
+				"text": "<!-- Commentaire -->",
+				"is_correct": true
+			},
+			{
+				"text": "/* Commentaire */",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 3,
+		"text": "A quoi sert la balise <hr> selon le standard HTML ?",
+		"answers": [
+			{
+				"text": "Elle dessine une ligne horizontale",
+				"is_correct": false
+			},
+			{
+				"text": "Insérer un saut de ligne dans un paragraphe",
+				"is_correct": false
+			},
+			{
+				"text": "Elle représente une rupture sémantique entre deux paragraphes",
+				"is_correct": true
+			},
+			{
+				"text": "Cette balise n'existe pas",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"id": 17,
+		"text": "Quel attribut HTML est utilisé pour définir des styles \"inline\" ?",
+		"answers": [
+			{
+				"text": "class",
+				"is_correct": false
+			},
+			{
+				"text": "style",
+				"is_correct": true
+			},
+			{
+				"text": "id",
+				"is_correct": false
+			},
+			{
+				"text": "styles",
+				"is_correct": false
+			}
+		]
+	}
+]

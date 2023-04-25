@@ -1,26 +1,32 @@
-@font-face {
-    font-family: 'Dinomouse';
-    src: url('../font/Dinomouse.otf') format("opentype");
-}
+// @font-face {
+//     font-family: 'Dinomouse';
+//     src: url('../font/Dinomouse.otf') format("opentype");
+// }
 
-@font-face {
-    font-family: 'Jumbalo';
-    src: url('../font/Jumbalo.ttf') format('truetype');
-}
+// @font-face {
+//     font-family: 'Jumbalo';
+//     src: url('../font/Jumbalo.ttf') format('truetype');
+// }
 
-/* Utilisation de la police dans votre code CSS */
+// /* Utilisation de la police dans votre code CSS */
 
-body {
-    background-image: url(../img/bg-global.svg);
-    background-repeat: no-repeat;
-    font-family: "Jumbalo";
-    overflow: hidden;
-    margin: 0;
+// body {
+//     background-image: url(../img/bg-global.svg);
+//     background-repeat: no-repeat;
+//     font-family: "Jumbalo";
+//     overflow: hidden;
+//     margin: 0;
 
     
 
-}
+// }
 
+@import "../css/setting" ;
+
+main{
+  max-width: 600px;
+  border: white;
+}
 .reponse, .points{
     text-align: center;
     font-style: normal;
@@ -28,6 +34,12 @@ body {
     -webkit-text-stroke: 1px rgb(248, 246, 246);
     font-size: 24px;
     margin: 0;
+}
+.street{
+  margin:0 auto ;
+  display:block ;
+  position: relative;
+  
 }
 
 

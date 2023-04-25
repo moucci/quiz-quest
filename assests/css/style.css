@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Jumbalo", sans-serif;
+  font-family: Jumbalo, sans-serif;
   src: url("../font/Jumbalo.ttf") format("opentype");
 }
 @font-face {
-  font-family: "Dinomouse", sans-serif;
-  src: url("../font/Dinomouse.otf") format("truetype");
+  font-family: Dinomouse, sans-serif;
+  src: url("../font/Dinomouse.otf") format("opentype");
 }
 * {
   font-family: Jumbalo, "roboto", "sans-serif";
@@ -46,6 +46,17 @@ body .rotate {
   display: inline-block;
   margin: 0 10px;
   transform: rotate(20deg);
+}
+@keyframes zoom-in-zoom-level-1 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
 }
 
 main {

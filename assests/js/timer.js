@@ -1,4 +1,3 @@
-
 /**
  * @type {{init: quiz.init, start_timer: quiz.start_timer, $timer: null, stop_timer: quiz.stop_timer, $timerTxt: null, deg: number, timer_rotate: ((function(HTMLElement, number): boolean)|*), count: number, questions: {}}}
  */
@@ -23,7 +22,7 @@ let quiz = {
     /**
      * @maxTime : maximum time limit  per seconde for one question
      */
-    maxTime:30,
+    maxTime: 3,
 
     /**
      * @countTime : Number => seconde number under timer graph
@@ -35,6 +34,10 @@ let quiz = {
      * @deg : Number => degree rotation for timer and arrow
      */
     deg: 0,
+
+
+    idxAnswer: null,
+
 
     /**
      * Function init quiz
@@ -55,7 +58,8 @@ let quiz = {
         this.$btnsAnswer.forEach(($el, key) => {
             $el.addEventListener('click', () => {
                 //stop timer
-                this.stop_timer().openIframe();
+                debugger ;
+                this.stop_timer().check_answer();
                 // this.openIframe()
             })
         })
@@ -63,9 +67,32 @@ let quiz = {
 
 
     /**
-     * empty object : questions for quiz
+     * empty Array : questions for quiz
      */
-    questions: {},
+    questions: [
+        {
+            "id": 24,
+            "text": "Lequel de ces sélecteurs a la spécificité la plus élevée ?",
+            "answers": [
+                {
+                    "text": "#content",
+                    "is_correct": true
+                },
+                {
+                    "text": ":first-child",
+                    "is_correct": false
+                },
+                {
+                    "text": "main",
+                    "is_correct": false
+                },
+                {
+                    "text": ".col",
+                    "is_correct": false
+                }
+            ]
+        }
+    ],
 
 
     /**
@@ -150,6 +177,15 @@ let quiz = {
      */
     check_answer: function () {
 
+        //if timeout
+        if (this.idxAnswer === null) {
+            this.openIframe(0);
+            return;
+        }
+
+
+
+
 
     },
 
@@ -157,10 +193,22 @@ let quiz = {
     /**
      * methode
      */
-    openIframe: function () {
+    openIframe: function (page) {
+
         let $iframe = document.querySelector('iframe');
-        $iframe.style.display = "block";
+
+        //if  timeout open badbaby with timeout variable = true
+        if(page === 0 ){
+            $iframe.src= 'badbaby.html?timeout=true&id=';
+            $iframe.style.display = "block";
+            return false
+        }
+
+
+
+
     },
+
 
 }
 
@@ -171,7 +219,6 @@ quiz.init();
 //start timer
 quiz.start_timer();
 
-fetch('api/questions.json')
 
 
 

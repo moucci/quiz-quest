@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Jumbalo", sans-serif;
+  font-family: Jumbalo, sans-serif;
   src: url("../font/Jumbalo.ttf") format("opentype");
 }
 @font-face {
-  font-family: "Dinomouse", sans-serif;
+  font-family: Dinomouse, sans-serif;
   src: url("../font/Dinomouse.otf") format("opentype");
 }
 * {
