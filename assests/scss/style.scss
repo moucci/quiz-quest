@@ -4,7 +4,7 @@
 
 
 main {
-    
+
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -23,154 +23,197 @@ main {
     }
 
     /***Section1****/
-.section1 {
-    div {
-        display: flex;
-        justify-content: space-around;
-
-        input::placeholder {
-            color: white;
-            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+    .section1 {
+        .img {
+            img {
+                background-size: cover;
+                width: 64px;
+                position: relative;
+                right: 80px;
+            }
         }
 
-      img{
-      background-size: cover;
-       width: 64px;
-   }
+        div {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            width: max-content;
+            margin: 0 auto;
 
-        .anonime {
-            padding: 0 10px;
-            font-size: 32px;
-            width: 283px;
-            height: 53px;
-            border-radius: 15px;
-            background-color: rgba(93, 155, 164, 0.7);
-            border: none;
+            .stylo {
+                position: absolute;
+                right: 0;
+                opacity: 0.5;
+                max-width: 48px;
+
+                img {
+                    max-width: 100%;
+                    padding: 5px;
+                }
+
+                &:active {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+            }
+
+            input {
+                padding-right: 48px;
+
+                &::placeholder {
+                    color: white;
+                    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+                }
+            }
+
+            .anonime {
+                padding: 0 10px;
+                font-size: 32px;
+                width: 283px;
+                height: 53px;
+                border-radius: 15px;
+                background-color: rgba(93, 155, 164, 0.7);
+                border: none;
+                text-align: center;
+                color: white;
+
+            }
+
+            .anonime:active {
+                border: none;
+            }
+
+        }
+
+        .text {
+
+
+            display: flex;
+            flex-direction: column;
             text-align: center;
-            color: white;
+            font-size: 28px;
+
+
+
+            h2 {
+                font-family: 'Dinomouse', sans-serif;
+                // margin: 0;
+                font-size: 1.75rem;
+                color: white;
+                text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+            }
+
+            h3 {
+                font-family: 'Dinomouse', sans-serif;
+                margin: 0;
+                font-size: 2rem;
+                color: white;
+                text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+            }
 
         }
 
-        .anonime:active {
-            border: none;
-        }
 
-    }
-
-    .text {
-
-
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 28px;
-
-
-
-        h2 {
-            font-family: 'Dinomouse', sans-serif;
-            font-size: 1.75rem;
-            color: white;
-            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
-        }
-
-        h3 {
-            font-family: 'Dinomouse', sans-serif;
-            font-size: 2rem;
-            color: white;
-            text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
-        }
 
     }
 
 
 
+    /****Section buttons*****/
+    .buttons {
+        position: absolute;
+        bottom: 158px;
+        width: 100%;
+
+        .div1 {
+            position: relative;
+            display: flex;
+
+
+            div {
+                display: inline-block;
+                flex-basis: 50%;
+                font-size: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:active{
+                    opacity: 0.8;
+                }
+
+
+                &.b1 {
+                    background-color: rgba(93, 129, 150, 0.89);
+                    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+                    height: 158px;
+                    width: 60%;
+                    position: absolute;
+                    text-align: center;
+
+
+                }
+
+
+                &.b2 {
+
+                    background-color: rgba(245, 115, 43, 0.89);
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+                    height: 158px;
+                    width: 60%;
+                    position: absolute;
+                    right: 0;
+                    text-align: center;
+
+                }
+
+
+
+
+            }
+
+        }
+
+        .div2 {
+            position: relative;
+            display: flex;
+            margin-top: 157px;
+
+            div {
+                display: inline-block;
+                flex-basis: 50%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:active{
+                    opacity: 0.8;
+                }
+
+                &.b3 {
+                    background-color: rgba(255, 5, 4, 0.84);
+                    clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+                    height: 158px;
+                    width: 60%;
+                    position: absolute;
+                    text-align: center;
+
+                     
+                }
+
+                &.b4 {
+                    background-color: rgba(246, 49, 156, 0.89);
+                    clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
+                    height: 158px;
+                    width: 60%;
+                    position: absolute;
+                    right: 0;
+                
+                    text-align: center;
+                }
+
+            }
+        }
+    }
 }
-
-
-
-/****Section buttons*****/
-.buttons {
-    position: absolute;
-    bottom: 158px;
-    width: 100%;
-
-    .div1 {
-        position: relative;
-        display: flex;
-        
-
-        button {
-            display: inline-block;
-            flex-basis: 50%;
-            border: none;
-            font-size: 100%;
-            color: white;
-
-
-            &.b1 {
-                background-color: rgba(93, 129, 150, 0.89);
-                clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
-                height: 158px;
-                width: 60%;
-                position: absolute;
-
-            }
-
-
-            &.b2 {
-
-                background-color: rgba(245, 115, 43, 0.89);
-                clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
-                height: 158px;
-                width: 60%;
-                position: absolute;
-                right: 0;
-            }
-
-
-
-
-        }
-
-    }
-
-    .div2 {
-        position: relative;
-        display: flex;
-        margin-top: 157px;
-      
-        button {
-            display: inline-block;
-            flex-basis: 50%;
-            color: white;
-
-            border: none;
-    
-
-
-
-            &.b3 {
-                background-color: rgba(255, 5, 4, 0.84);
-                clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
-                height: 158px;
-                width: 60%;
-                position: absolute;
-            }
-
-            &.b4 {
-                background-color: rgba(246, 49, 156, 0.89);
-                clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
-                height: 158px;
-                width: 60%;
-                position: absolute;
-                right: 0;
-            }
-
-        }
-    }
-}
-}
-
-
-

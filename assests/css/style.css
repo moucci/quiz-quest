@@ -13,16 +13,20 @@
 }
 
 body {
-  background: url("/assests/img/bg-global.svg") repeat-y;
+  background: url("../img/bg-global.svg") repeat-y;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 body main {
   overflow: hidden;
+  margin: 0 auto;
 }
 body .txt-jumbalo {
   font-family: Jumbalo, sans-serif;
+}
+body .txt-dinamouse {
+  font-family: Dinomouse, sans-serif;
 }
 body .btn {
   text-decoration: none;
@@ -37,6 +41,11 @@ body .btn_brd_blk {
 }
 body .shadow {
   box-shadow: 1px 3px 7px #000;
+}
+body .rotate {
+  display: inline-block;
+  margin: 0 10px;
+  transform: rotate(20deg);
 }
 
 main {
@@ -54,9 +63,36 @@ main header h1 {
   text-align: right;
   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
+main .section1 .img img {
+  background-size: cover;
+  width: 64px;
+  position: relative;
+  right: 80px;
+}
 main .section1 div {
   display: flex;
   justify-content: space-around;
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+main .section1 div .stylo {
+  position: absolute;
+  right: 0;
+  opacity: 0.5;
+  max-width: 48px;
+}
+main .section1 div .stylo img {
+  max-width: 100%;
+  padding: 5px;
+}
+main .section1 div .stylo:active {
+  cursor: pointer;
+  opacity: 1;
+}
+main .section1 div input {
+  padding-right: 48px;
 }
 main .section1 div input::-moz-placeholder {
   color: white;
@@ -65,13 +101,6 @@ main .section1 div input::-moz-placeholder {
 main .section1 div input::placeholder {
   color: white;
   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
-}
-main .section1 div .img {
-  display: inline;
-}
-main .section1 div img {
-  background-size: cover;
-  width: 64px;
 }
 main .section1 div .anonime {
   padding: 0 10px;
@@ -101,6 +130,7 @@ main .section1 .text h2 {
 }
 main .section1 .text h3 {
   font-family: "Dinomouse", sans-serif;
+  margin: 0;
   font-size: 2rem;
   color: white;
   text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
@@ -114,22 +144,28 @@ main .buttons .div1 {
   position: relative;
   display: flex;
 }
-main .buttons .div1 button {
+main .buttons .div1 div {
   display: inline-block;
   flex-basis: 50%;
-  border: none;
   font-size: 100%;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main .buttons .div1 button.b1 {
+main .buttons .div1 div:active {
+  opacity: 0.8;
+}
+main .buttons .div1 div.b1 {
   background-color: rgba(93, 129, 150, 0.89);
   -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
   height: 158px;
   width: 60%;
   position: absolute;
+  text-align: center;
 }
-main .buttons .div1 button.b2 {
+main .buttons .div1 div.b2 {
   background-color: rgba(245, 115, 43, 0.89);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
@@ -137,27 +173,34 @@ main .buttons .div1 button.b2 {
   width: 60%;
   position: absolute;
   right: 0;
+  text-align: center;
 }
 main .buttons .div2 {
   position: relative;
   display: flex;
   margin-top: 157px;
 }
-main .buttons .div2 button {
+main .buttons .div2 div {
   display: inline-block;
   flex-basis: 50%;
   color: white;
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main .buttons .div2 button.b3 {
+main .buttons .div2 div:active {
+  opacity: 0.8;
+}
+main .buttons .div2 div.b3 {
   background-color: rgba(255, 5, 4, 0.84);
   -webkit-clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
   height: 158px;
   width: 60%;
   position: absolute;
+  text-align: center;
 }
-main .buttons .div2 button.b4 {
+main .buttons .div2 div.b4 {
   background-color: rgba(246, 49, 156, 0.89);
   -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
@@ -165,4 +208,5 @@ main .buttons .div2 button.b4 {
   width: 60%;
   position: absolute;
   right: 0;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
