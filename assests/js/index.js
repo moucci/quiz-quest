@@ -91,7 +91,7 @@ let cat = [
 let list_btn_cat = document.querySelectorAll('.select_cat'); 
 
 
-function generateRandomQuestions(arr) {
+function generateRandomcategorie(arr) {
 
     let randomItems = [];
   
@@ -114,7 +114,7 @@ function generateRandomQuestions(arr) {
   }
 
 
-  generateRandomQuestions(cat)
+  generateRandomcategorie(cat)
 
   list_btn_cat[0].addEventListener('click' , function(){
 
