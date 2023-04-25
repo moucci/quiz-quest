@@ -5,6 +5,7 @@ let checker = {
      *
      */
     _init: function () {
+
         this.$containerTxt = document.querySelector('.txt-badbaby');
 
         //get variable get in url path
@@ -12,6 +13,9 @@ let checker = {
         window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
             _get[key] = value;
         });
+
+
+        debugger ;
 
         //bind value if present
         this.indexAnswer = (_get['id']) ? _get['id'] : this.indexAnswer;
