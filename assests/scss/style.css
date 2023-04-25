@@ -47,6 +47,17 @@ body .rotate {
   margin: 0 10px;
   transform: rotate(20deg);
 }
+@keyframes zoom-in-zoom-level-1 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
 
 main {
   display: flex;

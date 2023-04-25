@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/*# sourceMappingURL=score.css.map */
-=======
 @font-face {
   font-family: "Jumbalo", sans-serif;
   src: url("../font/Jumbalo.ttf") format("opentype");
@@ -50,6 +47,17 @@ body .rotate {
   margin: 0 10px;
   transform: rotate(20deg);
 }
+@keyframes zoom-in-zoom-level-1 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
 
 main {
   height: 100vh;
@@ -81,5 +89,6 @@ main .score_txt:before {
   position: absolute;
   top: -250px;
   left: 50px;
-}/*# sourceMappingURL=score.css.map */
->>>>>>> 97cc5f7f41c35c52ee569e5a0157f3c02caac117
+}
+
+/*# sourceMappingURL=score.css.map */

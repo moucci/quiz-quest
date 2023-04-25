@@ -47,6 +47,17 @@ body .rotate {
   margin: 0 10px;
   transform: rotate(20deg);
 }
+@keyframes zoom-in-zoom-level-1 {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
 
 main {
   height: 100vh;
@@ -75,17 +86,6 @@ main div.header .timer {
   text-align: center;
   color: #E2F500;
   padding: 20px;
-}
-@keyframes zoom-in-zoom-level-1 {
-  0% {
-    transform: scale(0.8, 0.8);
-  }
-  50% {
-    transform: scale(1, 1);
-  }
-  100% {
-    transform: scale(0.8, 0.8);
-  }
 }
 main div.header .timer .timer-graphic {
   width: 70px;
@@ -199,13 +199,4 @@ iframe {
   display: none;
 }
 
-<<<<<<< HEAD
-.button .div_1 {
-  display: flex;
-}
-.button .div_1 button {
-  flex-basis: 50%;
-}/*# sourceMappingURL=questions.css.map */
-=======
 /*# sourceMappingURL=questions.css.map */
->>>>>>> 97cc5f7f41c35c52ee569e5a0157f3c02caac117
