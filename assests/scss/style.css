@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Dinomouse", sans-serif;
-  src: url("../font/Dinomouse.otf") format("truetype");
+  src: url("../font/Dinomouse.otf") format("opentype");
 }
 * {
   font-family: Jumbalo, "roboto", "sans-serif";
