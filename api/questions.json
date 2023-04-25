@@ -1,0 +1,130 @@
+{
+  "quiz": [
+    {
+      "question": "Qu'est-ce que PHP ?",
+      "answers": [
+        {
+          "text": "Un logiciel de montage vidéo",
+          "correct": false
+        },
+        {
+          "text": "Un langage de programmation",
+          "correct": true
+        },
+        {
+          "text": "Un système d'exploitation",
+          "correct": false
+        },
+        {
+          "text": "Un navigateur web",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Que signifie l'acronyme PHP ?",
+      "answers": [
+        {
+          "text": "Personal Hypertext Processor",
+          "correct": false
+        },
+        {
+          "text": "Preprocessed Hypertext Pages",
+          "correct": false
+        },
+        {
+          "text": "PHP Hypertext Preprocessor",
+          "correct": true
+        },
+        {
+          "text": "Public Hyperlink Provider",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle est la dernière version stable de PHP ?",
+      "answers": [
+        {
+          "text": "PHP 5.6",
+          "correct": false
+        },
+        {
+          "text": "PHP 7.0",
+          "correct": false
+        },
+        {
+          "text": "PHP 7.4",
+          "correct": true
+        },
+        {
+          "text": "PHP 8.0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'un framework PHP ?",
+      "answers": [
+        {
+          "text": "Un langage de programmation similaire à PHP",
+          "correct": false
+        },
+        {
+          "text": "Un outil qui facilite la création d'applications web en PHP",
+          "correct": true
+        },
+        {
+          "text": "Un environnement de développement intégré pour PHP",
+          "correct": false
+        },
+        {
+          "text": "Un serveur web pour exécuter des scripts PHP",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle est la syntaxe pour afficher le contenu d'une variable en PHP ?",
+      "answers": [
+        {
+          "text": "echo(variable)",
+          "correct": false
+        },
+        {
+          "text": "print(variable)",
+          "correct": false
+        },
+        {
+          "text": "echo $variable;",
+          "correct": true
+        },
+        {
+          "text": "print($variable);",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction en PHP ?",
+      "answers": [
+        {
+          "text": "Un fichier qui contient des instructions PHP",
+          "correct": false
+        },
+        {
+          "text": "Une variable qui stocke des données en PHP",
+          "correct": false
+        },
+        {
+          "text": "Un bloc de code réutilisable qui effectue une tâche spécifique en PHP",
+          "correct": true
+        },
+        {
+          "text": "Une boucle qui exécute un code plusieurs fois en PHP",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
