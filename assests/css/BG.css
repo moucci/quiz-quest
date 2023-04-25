@@ -76,6 +76,7 @@ main {
 .street {
   margin: 0 auto;
   display: block;
+  position: relative;
 }
 
 html {
