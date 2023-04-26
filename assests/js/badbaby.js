@@ -14,11 +14,8 @@ let checker = {
             _get[key] = value;
         });
 
-
-        debugger ;
-
         //bind value if present
-        this.indexAnswer = (_get['id']) ? _get['id'] : this.indexAnswer;
+        this.indexAnswer = (_get['idx']) ? _get['idx'] : this.indexAnswer;
         this.statusTimeOut = (_get['timeout']) ? Boolean(_get['timeout']) : this.statusTimeOut;
 
         //append new data in  html
