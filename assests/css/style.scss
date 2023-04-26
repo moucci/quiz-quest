@@ -136,6 +136,8 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
+
 
                 &:active{
                     opacity: 0.8;
@@ -185,8 +187,11 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
+
                 &:active{
                     opacity: 0.8;
+
                 }
 
                 &.b3 {
@@ -210,6 +215,29 @@ main {
                 
                     text-align: center;
                 }
+
+            }
+        }
+
+        .reload {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(255, 255, 255, 0.29);
+            display: block;
+            position: absolute;
+            top: 80%;
+            right: 35%;
+            border-radius: 50%;
+            background: url("../img/reload.svg") no-repeat center ;
+            background-size: 70%;
+            filter: brightness(0) invert(1);
+            &:active , &:hover{
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, 0.09);
+                background-size: 74%;
+            }
+            &.shadow{
+                box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.67) !important;
 
             }
         }

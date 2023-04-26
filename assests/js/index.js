@@ -1,11 +1,10 @@
-
 let player;
 
 let playerInStorage = localStorage.getItem('player');
 
 /**
  * définir le jouer par defaut
- * qui se trouve dans le storage ou cree un nouveau 
+ * qui se trouve dans le storage ou cree un nouveau
  */
 if (playerInStorage === null) {
     //login  of user 
@@ -29,7 +28,7 @@ displayScore.textContent = player.score;
 btn_stylo.addEventListener("click", enableinput)
 
 /**
- * function active champ input pour changer le pseudo 
+ * function active champ input pour changer le pseudo
  */
 function enableinput() {
 
@@ -63,7 +62,6 @@ function enableinput() {
 }
 
 
-
 /**
  * function qui permet de mettre a jour le player dans le storage
  */
@@ -72,9 +70,8 @@ function updateUserInStorage() {
 }
 
 
-
 /**
- * list des catégories 
+ * list des catégories
  */
 let cat = [
     "php",
@@ -85,42 +82,42 @@ let cat = [
     " HTML / CSS",
     "MySQL",
     "Développement Web"
-]; 
+];
 
 
-let list_btn_cat = document.querySelectorAll('.select_cat'); 
+let list_btn_cat = document.querySelectorAll('.select_cat');
 
 
 function generateRandomQuestions(arr) {
 
     let randomItems = [];
-  
-    for(let i = 0; i < 4; i++) {
-      let randomIndex = Math.floor(Math.random() * arr.length);
-      randomItems.push(arr[randomIndex]);
-      arr.splice(randomIndex, 1);
 
-      let  indexBtn = i + 1
+    for (let i = 0; i < 4; i++) {
+        let randomIndex = Math.floor(Math.random() * arr.length);
+        randomItems.push(arr[randomIndex]);
+        arr.splice(randomIndex, 1);
 
-    //   document.querySelector('.select_cat:nth-child('+indexBtn+')').textContent = arr[i]
+        let indexBtn = i + 1
+
+        //   document.querySelector('.select_cat:nth-child('+indexBtn+')').textContent = arr[i]
 
 
-      list_btn_cat[i].innerHTML = arr[i].replace(' ', '<br/>')
+        list_btn_cat[i].innerHTML = arr[i].replace(' ', '<br/>')
 
 
     }
-  
+
     return randomItems;
-  }
+}
 
 
-  generateRandomQuestions(cat)
+generateRandomQuestions(cat)
 
-  list_btn_cat[0].addEventListener('click' , function(){
+list_btn_cat[0].addEventListener('click', function () {
 
     window.location.href = 'questions?cat=php'
 
-  })
+})
 
 
 
