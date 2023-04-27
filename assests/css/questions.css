@@ -109,7 +109,8 @@ main div.header .timer .timer-graphic:before {
   z-index: 10;
 }
 main div.header .timer .timer-graphic .arrow {
-  clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
+  -webkit-clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
+          clip-path: polygon(46.98% 25.17%, 100% 50%, 60% 50%, 60% 100%, 40% 100%, 40% 50%, 0% 50%);
   position: absolute;
   width: 12px;
   height: 42px;
@@ -197,6 +198,4 @@ iframe {
   height: 100vh;
   width: 100vw;
   display: none;
-}
-
-/*# sourceMappingURL=questions.css.map */
+}/*# sourceMappingURL=questions.css.map */

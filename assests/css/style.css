@@ -84,6 +84,7 @@ main .section1 div {
   display: flex;
   justify-content: space-around;
   position: relative;
+  width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
 }
@@ -103,6 +104,10 @@ main .section1 div .stylo:active {
 }
 main .section1 div input {
   padding-right: 48px;
+}
+main .section1 div input::-moz-placeholder {
+  color: white;
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 main .section1 div input::placeholder {
   color: white;
@@ -158,14 +163,14 @@ main .buttons .div1 div {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 main .buttons .div1 div:active {
   opacity: 0.8;
 }
 main .buttons .div1 div.b1 {
   background-color: rgba(93, 129, 150, 0.89);
-  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
   height: 158px;
   width: 60%;
   position: absolute;
@@ -173,7 +178,8 @@ main .buttons .div1 div.b1 {
 }
 main .buttons .div1 div.b2 {
   background-color: rgba(245, 115, 43, 0.89);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
   height: 158px;
   width: 60%;
   position: absolute;
@@ -192,14 +198,14 @@ main .buttons .div2 div {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 main .buttons .div2 div:active {
   opacity: 0.8;
 }
 main .buttons .div2 div.b3 {
   background-color: rgba(255, 5, 4, 0.84);
-  clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 67% 100%, 0 100%);
   height: 158px;
   width: 60%;
   position: absolute;
@@ -207,13 +213,14 @@ main .buttons .div2 div.b3 {
 }
 main .buttons .div2 div.b4 {
   background-color: rgba(246, 49, 156, 0.89);
-  clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(33% 0%, 100% 0, 100% 100%, 0 100%);
   height: 158px;
   width: 60%;
   position: absolute;
   right: 0;
   text-align: center;
-}
+}/*# sourceMappingURL=style.css.map */}
 main .buttons .reload {
   width: 60px;
   height: 60px;
@@ -234,6 +241,4 @@ main .buttons .reload:active, main .buttons .reload:hover {
 }
 main .buttons .reload.shadow {
   box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.67) !important;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
