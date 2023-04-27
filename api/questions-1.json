@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "text": "Comment ouvrir le gestionnaire de tâches sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Ctrl + Shift + Esc",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + Alt + Suppr",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + Alt + Del",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + Shift + Del",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Quelle est la commande pour afficher l'adresse IP sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "ipconfig",
+                "is_correct": true
+            },
+            {
+                "text": "ifconfig",
+                "is_correct": false
+            },
+            {
+                "text": "netstat",
+                "is_correct": false
+            },
+            {
+                "text": "ping",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Quelle est la combinaison de touches pour afficher le Bureau sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Windows + D",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + D",
+                "is_correct": false
+            },
+            {
+                "text": "Alt + D",
+                "is_correct": false
+            },
+            {
+                "text": "Shift + D",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Comment ouvrir l'invite de commandes sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "En tapant cmd dans la barre de recherche",
+                "is_correct": true
+            },
+            {
+                "text": "En appuyant sur la touche Windows + R et en tapant cmd",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche Windows + E et en tapant cmd",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche Windows + X et en sélectionnant Invite de commandes",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Comment redémarrer Windows en mode sans échec ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "En appuyant sur la touche F8 au démarrage",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche Shift + F8 au démarrage",
+                "is_correct": true
+            },
+            {
+                "text": "En appuyant sur la touche F5 au démarrage",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche F10 au démarrage",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Quel est le nom de la dernière version de Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Windows 10",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 11",
+                "is_correct": true
+            },
+            {
+                "text": "Windows 12",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 13",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Quelle est la combinaison de touches pour ouvrir le gestionnaire de tâches sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Ctrl + Shift + Esc",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + Alt + Suppr",
+                "is_correct": false
+            },
+            {
+                "text": "Alt + F4",
+                "is_correct": false
+            },
+            {
+                "text": "Windows + R",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Comment accéder aux paramètres système sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "En cliquant sur l'icône Paramètres dans le menu Démarrer",
+                "is_correct": true
+            },
+            {
+                "text": "En cliquant sur l'icône de la batterie dans la barre des tâches",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche F1",
+                "is_correct": false
+            },
+            {
+                "text": "En appuyant sur la touche F2",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Quelle est la commande pour afficher l'adresse IP d'un ordinateur sous Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "ipconfig",
+                "is_correct": true
+            },
+            {
+                "text": "ifconfig",
+                "is_correct": false
+            },
+            {
+                "text": "ping",
+                "is_correct": false
+            },
+            {
+                "text": "tracert",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Comment faire pour désinstaller un programme sur Windows ?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "En utilisant le Panneau de configuration",
+                "is_correct": true
+            },
+            {
+                "text": "En supprimant le fichier du programme",
+                "is_correct": false
+            },
+            {
+                "text": "En utilisant la commande uninstall",
+                "is_correct": false
+            },
+            {
+                "text": "En utilisant la commande remove",
+                "is_correct": false
+            }
+        ]
+    }
+]

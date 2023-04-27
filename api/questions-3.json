@@ -1,0 +1,235 @@
+[
+    {
+      "id": 1,
+      "text": "Quel est le nom de la dernière version de MacOS ?",
+      "categories": "/api/categories/1",
+      "answers": [
+        {
+          "text": "MacOS Mojave",
+          "is_correct": false
+        },
+        {
+          "text": "MacOS Catalina",
+          "is_correct": false
+        },
+        {
+          "text": "MacOS Big Sur",
+          "is_correct": true
+        },
+        {
+          "text": "MacOS Monterey",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Quelle est la combinaison de touches pour prendre une capture d'écran sur MacOS ?",
+      "categories": "/api/categories/1",
+      "answers": [
+        {
+          "text": "Cmd + C",
+          "is_correct": false
+        },
+        {
+          "text": "Cmd + V",
+          "is_correct": false
+        },
+        {
+          "text": "Cmd + A",
+          "is_correct": false
+        },
+        {
+          "text": "Cmd + Shift + 3",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Comment accéder au centre de contrôle sur MacOS ?",
+      "categories": "/api/categories/1",
+      "answers": [
+        {
+          "text": "En cliquant sur l'icône dans la barre de menu",
+          "is_correct": false
+        },
+        {
+          "text": "En appuyant sur la touche F1",
+          "is_correct": false
+        },
+        {
+          "text": "En appuyant sur la touche F2",
+          "is_correct": false
+        },
+        {
+          "text": "En appuyant sur la touche Control",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Comment ouvrir le terminal sur MacOS ?",
+      "categories": "/api/categories/1",
+      "answers": [
+        {
+          "text": "En appuyant sur la touche Cmd + T",
+          "is_correct": true
+        },
+        {
+          "text": "En appuyant sur la touche Cmd + R",
+          "is_correct": false
+        },
+        {
+          "text": "En appuyant sur la touche Cmd + A",
+          "is_correct": false
+        },
+        {
+          "text": "En appuyant sur la touche Cmd + S",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Quelle est la dernière génération de processeurs utilisée par les Macs ?",
+      "categories": "/api/categories/1",
+      "answers": [
+        {
+          "text": "Intel",
+          "is_correct": false
+        },
+        {
+          "text": "AMD",
+          "is_correct": false
+        },
+        {
+          "text": "M1",
+          "is_correct": true
+        },
+        {
+          "text": "Qualcomm",
+          "is_correct": false
+        }
+      ]
+    },
+    [
+        {
+          "id": 6,
+          "text": "Quelle est la fonctionnalité de MacOS qui permet de regrouper plusieurs fenêtres d'une même application sous une seule icône dans le Dock ?",
+          "categories": "/api/categories/1",
+          "answers": [
+            {
+              "text": "Mission Control",
+              "is_correct": false
+            },
+            {
+              "text": "Expose",
+              "is_correct": false
+            },
+            {
+              "text": "Split View",
+              "is_correct": false
+            },
+            {
+              "text": "App Exposé",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Comment éteindre un Mac ?",
+          "categories": "/api/categories/1",
+          "answers": [
+            {
+              "text": "En appuyant sur le bouton d'alimentation",
+              "is_correct": true
+            },
+            {
+              "text": "En fermant le capot de l'ordinateur portable",
+              "is_correct": false
+            },
+            {
+              "text": "En appuyant sur la touche Escape",
+              "is_correct": false
+            },
+            {
+              "text": "En appuyant sur la touche Control + E",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "Quelle est la fonctionnalité de MacOS qui permet d'accéder rapidement aux fichiers et aux applications fréquemment utilisées ?",
+          "categories": "/api/categories/1",
+          "answers": [
+            {
+              "text": "Finder",
+              "is_correct": false
+            },
+            {
+              "text": "Launchpad",
+              "is_correct": true
+            },
+            {
+              "text": "Spotlight",
+              "is_correct": false
+            },
+            {
+              "text": "Dock",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Comment renommer un fichier sur MacOS ?",
+          "categories": "/api/categories/1",
+          "answers": [
+            {
+              "text": "En cliquant deux fois sur le nom du fichier",
+              "is_correct": false
+            },
+            {
+              "text": "En appuyant sur la touche Control + N",
+              "is_correct": false
+            },
+            {
+              "text": "En appuyant sur la touche Control + R",
+              "is_correct": false
+            },
+            {
+              "text": "En cliquant une fois sur le nom du fichier, puis en cliquant à nouveau sur le nom pour l'éditer",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+            "id": 10,
+            "text": "Comment vider la corbeille sur MacOS ?",
+            "categories": "/api/categories/1",
+            "answers": [
+              {
+                "text": "En faisant un clic droit sur la corbeille et en sélectionnant l'option 'Vider la corbeille'",
+                "is_correct": true
+              },
+              {
+                "text": "En appuyant sur la touche Cmd + E",
+                "is_correct": false
+              },
+              {
+                "text": "En appuyant sur la touche Cmd + Shift + 3",
+                "is_correct": false
+              },
+              {
+                "text": "En appuyant sur la touche Cmd + R",
+                "is_correct": false
+              }
+            ]
+          }
+      
+  ]
+  

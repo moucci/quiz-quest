@@ -1,0 +1,235 @@
+[
+    {
+    "id": 1,
+    "text": "What is the most widely used Linux distribution in the world?",
+    "categories": "/api/categories/2",
+    "answers": [
+    {
+    "text": "Ubuntu",
+    "is_correct": false
+    },
+    {
+    "text": "Debian",
+    "is_correct": false
+    },
+    {
+    "text": "Fedora",
+    "is_correct": false
+    },
+    {
+    "text": "Linux Mint",
+    "is_correct": true
+    }
+    ]
+    },
+    {
+    "id": 2,
+    "text": "What is the command to display the contents of a directory in Linux?",
+    "categories": "/api/categories/2",
+    "answers": [
+    {
+    "text": "ls",
+    "is_correct": true
+    },
+    {
+    "text": "cd",
+    "is_correct": false
+    },
+    {
+    "text": "pwd",
+    "is_correct": false
+    },
+    {
+    "text": "mkdir",
+    "is_correct": false
+    }
+    ]
+    },
+    {
+    "id": 3,
+    "text": "How do you install a new package on Linux using the command line?",
+    "categories": "/api/categories/2",
+    "answers": [
+    {
+    "text": "sudo apt install package_name",
+    "is_correct": true
+    },
+    {
+    "text": "sudo remove package_name",
+    "is_correct": false
+    },
+    {
+    "text": "sudo update package_name",
+    "is_correct": false
+    },
+    {
+    "text": "sudo start package_name",
+    "is_correct": false
+    }
+    ]
+    },
+    {
+    "id": 4,
+    "text": "What is the command to connect to a remote server in Linux?",
+    "categories": "/api/categories/2",
+    "answers": [
+    {
+    "text": "ssh",
+    "is_correct": true
+    },
+    {
+    "text": "ftp",
+    "is_correct": false
+    },
+    {
+    "text": "telnet",
+    "is_correct": false
+    },
+    {
+    "text": "sftp",
+    "is_correct": false
+    }
+    ]
+    },
+    {
+    "id": 5,
+    "text": "What is the command to change the permissions of a file in Linux?",
+    "categories": "/api/categories/2",
+    "answers": [
+    {
+    "text": "chmod",
+    "is_correct": true
+    },
+    {
+    "text": "chown",
+    "is_correct": false
+    },
+    {
+    "text": "chgrp",
+    "is_correct": false
+    },
+    {
+    "text": "perm",
+    "is_correct": false
+    }
+    ]
+    },
+    
+{
+      "id": 6,
+      "text": "What is the command to display running processes on Linux?",
+      "categories": "/api/categories/2",
+      "answers": [
+        {
+          "text": "ps",
+          "is_correct": true
+        },
+        {
+          "text": "ls",
+          "is_correct": false
+        },
+        {
+          "text": "top",
+          "is_correct": false
+        },
+        {
+          "text": "kill",
+          "is_correct": false
+        }
+    ]
+},
+
+    {
+      "id": 7,
+      "text": "Which Linux command lists files in a directory?",
+      "categories": "/api/categories/2",
+      "answers": [
+        {
+          "text": "cd",
+          "is_correct": false
+        },
+        {
+          "text": "rm",
+          "is_correct": false
+        },
+        {
+          "text": "ls",
+          "is_correct": true
+        },
+        {
+          "text": "mkdir",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "What is the Linux command to display the contents of a text file?",
+      "categories": "/api/categories/2",
+      "answers": [
+        {
+          "text": "cat",
+          "is_correct": true
+        },
+        {
+          "text": "ls",
+          "is_correct": false
+        },
+        {
+          "text": "rm",
+          "is_correct": false
+        },
+        {
+          "text": "mv",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What is the Linux command to change the owner of a file?",
+      "categories": "/api/categories/2",
+      "answers": [
+        {
+          "text": "chgrp",
+          "is_correct": false
+        },
+        {
+          "text": "chown",
+          "is_correct": true
+        },
+        {
+          "text": "chmod",
+          "is_correct": false
+        },
+        {
+          "text": "chroot",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "What is the Linux command to compress files into a tar file?",
+      "categories": "/api/categories/2",
+      "answers": [
+        {
+          "text": "zip",
+          "is_correct": false
+        },
+        {
+          "text": "unzip",
+          "is_correct": false
+        },
+        {
+          "text": "tar",
+          "is_correct": true
+        },
+        {
+          "text": "untar",
+          "is_correct": false
+        }
+      ]
+    }
+]
+  
