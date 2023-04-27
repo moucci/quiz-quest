@@ -18,7 +18,7 @@ if (playerInStorage === null) {
     player = {
         name: "anonyme",
         score: '0',
-        lang: 'fr_FR'
+        lang: "en_US",
     }
 
     //save data in storage

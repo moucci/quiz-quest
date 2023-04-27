@@ -1,257 +1,255 @@
 [
-    {
-      "id": 1,
-      "text": "Quelle est la distribution Linux la plus utilisée au monde ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "Ubuntu",
-          "is_correct": false
-        },
-        {
-          "text": "Debian",
-          "is_correct": false
-        },
-        {
-          "text": "Fedora",
-          "is_correct": false
-        },
-        {
-          "text": "Linux Mint",
-          "is_correct": true
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Quelle est la commande pour afficher le contenu d'un répertoire sur Linux ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "ls",
-          "is_correct": true
-        },
-        {
-          "text": "cd",
-          "is_correct": false
-        },
-        {
-          "text": "pwd",
-          "is_correct": false
-        },
-        {
-          "text": "mkdir",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "Comment installer un nouveau paquet sur Linux avec la ligne de commande ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "sudo apt install nom_paquet",
-          "is_correct": true
-        },
-        {
-          "text": "sudo remove nom_paquet",
-          "is_correct": false
-        },
-        {
-          "text": "sudo update nom_paquet",
-          "is_correct": false
-        },
-        {
-          "text": "sudo start nom_paquet",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "text": "Quelle est la commande pour se connecter à un serveur distant sur Linux ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "ssh",
-          "is_correct": true
-        },
-        {
-          "text": "ftp",
-          "is_correct": false
-        },
-        {
-          "text": "telnet",
-          "is_correct": false
-        },
-        {
-          "text": "sftp",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "text": "Quelle est la commande pour changer les permissions d'un fichier sur Linux ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "chmod",
-          "is_correct": true
-        },
-        {
-          "text": "chown",
-          "is_correct": false
-        },
-        {
-          "text": "chgrp",
-          "is_correct": false
-        },
-        {
-          "text": "perm",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "text": "Quelle est la commande pour afficher les processus en cours sur Linux ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "ps",
-          "is_correct": true
-        },
-        {
-          "text": "ls",
-          "is_correct": false
-        },
-        {
-          "text": "top",
-          "is_correct": false
-        },
-        {
-          "text": "kill",
-          "is_correct": false
-        }
+  {
+    "id": 1,
+    "text": "Quelle est la distribution Linux la plus utilisée au monde ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "Ubuntu",
+        "is_correct": false
+      },
+      {
+        "text": "Debian",
+        "is_correct": false
+      },
+      {
+        "text": "Fedora",
+        "is_correct": false
+      },
+      {
+        "text": "Linux Mint",
+        "is_correct": true
+      }
     ]
-},
-[
-    {
-      "id": 16,
-      "text": "Quelle commande Linux permet de lister les fichiers d'un répertoire ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "cd",
-          "is_correct": false
-        },
-        {
-          "text": "rm",
-          "is_correct": false
-        },
-        {
-          "text": "ls",
-          "is_correct": true
-        },
-        {
-          "text": "mkdir",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "text": "Quelle est la commande Linux pour afficher le contenu d'un fichier texte ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "cat",
-          "is_correct": true
-        },
-        {
-          "text": "ls",
-          "is_correct": false
-        },
-        {
-          "text": "rm",
-          "is_correct": false
-        },
-        {
-          "text": "mv",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "text": "Quelle est la commande Linux pour changer le propriétaire d'un fichier ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "chgrp",
-          "is_correct": false
-        },
-        {
-          "text": "chown",
-          "is_correct": true
-        },
-        {
-          "text": "chmod",
-          "is_correct": false
-        },
-        {
-          "text": "chroot",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "text": "Quelle est la commande Linux pour compresser des fichiers en un fichier tar ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "zip",
-          "is_correct": false
-        },
-        {
-          "text": "unzip",
-          "is_correct": false
-        },
-        {
-          "text": "tar",
-          "is_correct": true
-        },
-        {
-          "text": "untar",
-          "is_correct": false
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "text": "Quelle est la commande Linux pour installer des logiciels à partir des sources ?",
-      "categories": "/api/categories/2",
-      "answers": [
-        {
-          "text": "sudo apt-get install",
-          "is_correct": false
-        },
-        {
-          "text": "yum install",
-          "is_correct": false
-        },
-        {
-          "text": "dnf install",
-          "is_correct": false
-        },
-        {
-          "text": "make install",
-          "is_correct": true
-        }
-      ]
-    }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "text": "Quelle est la commande pour afficher le contenu d'un répertoire sur Linux ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "ls",
+        "is_correct": true
+      },
+      {
+        "text": "cd",
+        "is_correct": false
+      },
+      {
+        "text": "pwd",
+        "is_correct": false
+      },
+      {
+        "text": "mkdir",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Comment installer un nouveau paquet sur Linux avec la ligne de commande ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "sudo apt install nom_paquet",
+        "is_correct": true
+      },
+      {
+        "text": "sudo remove nom_paquet",
+        "is_correct": false
+      },
+      {
+        "text": "sudo update nom_paquet",
+        "is_correct": false
+      },
+      {
+        "text": "sudo start nom_paquet",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Quelle est la commande pour se connecter à un serveur distant sur Linux ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "ssh",
+        "is_correct": true
+      },
+      {
+        "text": "ftp",
+        "is_correct": false
+      },
+      {
+        "text": "telnet",
+        "is_correct": false
+      },
+      {
+        "text": "sftp",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Quelle est la commande pour changer les permissions d'un fichier sur Linux ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "chmod",
+        "is_correct": true
+      },
+      {
+        "text": "chown",
+        "is_correct": false
+      },
+      {
+        "text": "chgrp",
+        "is_correct": false
+      },
+      {
+        "text": "perm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Quelle est la commande pour afficher les processus en cours sur Linux ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "ps",
+        "is_correct": true
+      },
+      {
+        "text": "ls",
+        "is_correct": false
+      },
+      {
+        "text": "top",
+        "is_correct": false
+      },
+      {
+        "text": "kill",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Quelle commande Linux permet de lister les fichiers d'un répertoire ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "cd",
+        "is_correct": false
+      },
+      {
+        "text": "rm",
+        "is_correct": false
+      },
+      {
+        "text": "ls",
+        "is_correct": true
+      },
+      {
+        "text": "mkdir",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Quelle est la commande Linux pour afficher le contenu d'un fichier texte ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "cat",
+        "is_correct": true
+      },
+      {
+        "text": "ls",
+        "is_correct": false
+      },
+      {
+        "text": "rm",
+        "is_correct": false
+      },
+      {
+        "text": "mv",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Quelle est la commande Linux pour changer le propriétaire d'un fichier ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "chgrp",
+        "is_correct": false
+      },
+      {
+        "text": "chown",
+        "is_correct": true
+      },
+      {
+        "text": "chmod",
+        "is_correct": false
+      },
+      {
+        "text": "chroot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Quelle est la commande Linux pour compresser des fichiers en un fichier tar ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "zip",
+        "is_correct": false
+      },
+      {
+        "text": "unzip",
+        "is_correct": false
+      },
+      {
+        "text": "tar",
+        "is_correct": true
+      },
+      {
+        "text": "untar",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Quelle est la commande Linux pour installer des logiciels à partir des sources ?",
+    "categories": "/api/categories/2",
+    "answers": [
+      {
+        "text": "sudo apt-get install",
+        "is_correct": false
+      },
+      {
+        "text": "yum install",
+        "is_correct": false
+      },
+      {
+        "text": "dnf install",
+        "is_correct": false
+      },
+      {
+        "text": "make install",
+        "is_correct": true
+      }
+    ]
+  }
+]

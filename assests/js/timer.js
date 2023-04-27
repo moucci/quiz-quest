@@ -28,7 +28,7 @@ let appLanguage = player.lang || 'fr_FR';
 /**
  * save original methode fetch
  */
-const {fetch: originalFetch} = window;
+const { fetch: originalFetch } = window;
 
 /**
  * Methode Interceptor to append Custom header
@@ -218,6 +218,8 @@ let quiz = {
     getQuestions: async function () {
         const response = await fetch('https://quiz.freefakeapi.io/api/categories/' + quiz.selectedCategorie + '/questions?limit=10');
         const questions = await response.json();
+
+
         return questions;
     },
 
@@ -302,7 +304,7 @@ let quiz = {
             return;
         } else if (this.questions[this.selectedQuestion].answers[this.idxAnswer].is_correct) {
             //update paleyr score
-            player.score = parseInt(player.score) +  10;
+            player.score = parseInt(player.score) + 10;
             document.querySelector('.score .nb').textContent = parseInt(player.score);
             //open success  page
             this.openIframe("SUCCESS");
@@ -382,7 +384,7 @@ let quiz = {
             //set idxAnswer to null
             this.idxAnswer = null;
 
-            this.start_timer() ;
+            this.start_timer();
         } else {
 
 
@@ -421,11 +423,44 @@ quiz.getCategory().then((apiCategories) => {
      * bind questions to quiz.questions and init quiz
      */
     quiz.getQuestions().then((apiQuestions) => {
+
+
+        if (apiQuestions.length < 10) {
+            throw ('hola')
+        }
+
         quiz.questions = apiQuestions;
+
         //init quiz
         quiz.init();
+
+
     }).catch(() => {
-        
+
+        let url_local = "api/questions-" + quiz.selectedCategorie;
+        console.log(url_local)
+        let lang = ".json";
+        if (appLanguage === "en_US") {
+            lang = "-en.json";
+        }
+
+
+        fetch(url_local + lang)
+            .then(function (response) {
+                return response.json();
+            }).then(function (questions) {
+
+                console.log(questions)
+
+                quiz.questions = questions;
+                quiz.init();
+            })
+
+
+
+
+    }).catch(() => {
+
         alert("Une erreur est survenue lors de la récupération des questions, ce n'est pas de ma faute." +
             "Veuillez voir le problème avec #h");
     })
