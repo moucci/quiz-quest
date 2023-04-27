@@ -428,11 +428,11 @@ quiz.getCategory().then((apiCategories) => {
 
 
         alert("Une erreur est survenue lors de la récupération des questions, ce n'est pas de ma faute." +
-            "Veuillez voir le problème avec #hugo");
+            "Veuillez voir le problème avec #hamid");
     })
 }).catch(() => {
     alert("Une erreur est survenue lors de la récupération des catégories, ce n'est pas de ma faute." +
-        "Veuillez voir le problème avec #hugo");
+        "Veuillez voir le problème avec #hamid");
 });
 
 
