@@ -10,7 +10,7 @@ let player;
 let playerInStorage = localStorage.getItem('player');
 
 /**
- * définir le jouer par defaut
+ * définir le jouer par defautfr_FR
  * qui se trouve dans le storage ou cree un nouveau
  */
 if (playerInStorage === null) {
@@ -20,6 +20,10 @@ if (playerInStorage === null) {
         score: '0',
         lang: 'fr_FR'
     }
+
+    //save data in storage
+    updateUserInStorage() ;
+
 } else {
     player = JSON.parse(playerInStorage);
 }
@@ -79,7 +83,8 @@ function enableinput() {
         }
 
 
-        updateUserInStorage()
+        //save dada in storage
+        updateUserInStorage() ;
 
     }
 }
@@ -96,7 +101,7 @@ function updateUserInStorage() {
  * get loader element
  * @type {Element}
  */
-let $loader = document.querySelector('.rotate-infinite') ;
+let $loader = document.querySelector('.rotate-infinite');
 
 /**
  * list des catégories
@@ -129,7 +134,7 @@ fetch('https://quiz.freefakeapi.io/api/categories?random=true', {
 }).catch((err) => {
     console.log(err)
     alert("Une erreur est survenue lors de la récupération des catégories, ce n'est pas de ma faute." +
-        "Veuillez voir le problème avec #hugo , walah c'est lui ");
+        "Veuillez voir le problème avec #hamid , walah c'est lui ");
 });
 
 
