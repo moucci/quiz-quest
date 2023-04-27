@@ -1,35 +1,57 @@
-
+/**
+ * @player : {}
+ */
 let player;
 
+/**
+ * get player in storage
+ * @type {Object}
+ */
 let playerInStorage = localStorage.getItem('player');
 
 /**
  * définir le jouer par defaut
- * qui se trouve dans le storage ou cree un nouveau 
+ * qui se trouve dans le storage ou cree un nouveau
  */
 if (playerInStorage === null) {
     //login  of user 
     player = {
         name: "anonyme",
-        score: '0'
+        score: '0',
+        lang: 'fr_FR'
     }
 } else {
     player = JSON.parse(playerInStorage);
 }
 
-
+/**
+ * get element INPUT for name player
+ * @type {Element}
+ */
 let input = document.querySelector(".anonime");
 
+/**
+ * get btn element  edit name
+ * @type {Element}
+ */
 const btn_stylo = document.querySelector("#btn_edit_login");
+
+/**
+ * get block where display score
+ * @type {Element}
+ */
 const displayScore = document.querySelector(".displayScore");
 
+//set player name in input
 input.value = player.name;
+//set score in container
 displayScore.textContent = player.score;
 
+//bind event  click on  btn_stylo for edit name
 btn_stylo.addEventListener("click", enableinput)
 
 /**
- * function active champ input pour changer le pseudo 
+ * function active champ input pour changer le pseudo
  */
 function enableinput() {
 
@@ -63,7 +85,6 @@ function enableinput() {
 }
 
 
-
 /**
  * function qui permet de mettre a jour le player dans le storage
  */
@@ -71,28 +92,59 @@ function updateUserInStorage() {
     localStorage.player = JSON.stringify(player);
 }
 
+/**
+ * get loader element
+ * @type {Element}
+ */
+let $loader = document.querySelector('.rotate-infinite') ;
+
+/**
+ * list des catégories
+ */
+let categories = [];
+
+/**
+ * Get category from quiz.freefakeapi ;
+ * @return {Promise<any>}
+ */
+
+fetch('https://quiz.freefakeapi.io/api/categories?random=true', {
+    headers: {
+        'Accept': 'application/json',
+        'Accept-Language': player.lang
+    }
+}).then((response) => {
+    return response.json()
+}).then((apiCategories) => {
+
+    //add new data to categories ;
+    categories = apiCategories;
+
+    //generate 4 random  questegorie
+    generateRandomCategory(categories);
+
+    //stop loader
+    $loader.classList.remove('rotate-infinite')
+
+}).catch((err) => {
+    console.log(err)
+    alert("Une erreur est survenue lors de la récupération des catégories, ce n'est pas de ma faute." +
+        "Veuillez voir le problème avec #hugo , walah c'est lui ");
+});
 
 
 /**
- * list des catégories 
+ * get all btn
+ * @type {NodeListOf<Element>}
  */
-let cat = [
-    "php",
-    "linux",
-    "windows",
-    "javaScript",
-    "macOs",
-    "systems d'exploitation",
-    " HTML / CSS",
-    "MySQL",
-    "Développement Web"
-];
+let $list_btn_cat = document.querySelectorAll('.select_cat');
 
-
-let list_btn_cat = document.querySelectorAll('.select_cat');
-
-
-function generateRandomcategorie(arr) {
+/**
+ * function to  return 4 random item
+ * @param arr
+ * @return {*[]}
+ */
+function generateRandomCategory(arr) {
 
     let randomItems = [];
 
@@ -100,28 +152,15 @@ function generateRandomcategorie(arr) {
         let randomIndex = Math.floor(Math.random() * arr.length);
         randomItems.push(arr[randomIndex]);
         arr.splice(randomIndex, 1);
-
-        let indexBtn = i + 1
-
-        //   document.querySelector('.select_cat:nth-child('+indexBtn+')').textContent = arr[i]
-
-
-        list_btn_cat[i].innerHTML = arr[i].replace(' ', '<br/>')
-
-
+        $list_btn_cat[i].innerHTML = arr[i].name.replace(' ', '<br/>')
     }
 
     return randomItems;
 }
 
 
-generateRandomcategorie(cat)
 
-list_btn_cat[0].addEventListener('click', function () {
 
-    window.location.href = 'questions?cat=php'
-
-})
 
 fetch('api/Questions.json').then(response => {
     return response.json()

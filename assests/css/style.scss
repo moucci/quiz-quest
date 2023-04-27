@@ -136,6 +136,8 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
+
 
                 &:active{
                     opacity: 0.8;
@@ -185,8 +187,11 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
+
                 &:active{
                     opacity: 0.8;
+
                 }
 
                 &.b3 {
@@ -213,5 +218,7 @@ main {
 
             }
         }
+
+        
     }
 }
