@@ -388,8 +388,9 @@ quiz.getCategory().then((apiCategories) => {
         //init quiz
         quiz.init();
     }).catch(() => {
+        
         alert("Une erreur est survenue lors de la récupération des questions, ce n'est pas de ma faute." +
-            "Veuillez voir le problème avec #hamid");
+            "Veuillez voir le problème avec #h");
     })
 
 
