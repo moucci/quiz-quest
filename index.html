@@ -36,17 +36,15 @@
         <section class="buttons">
             
                 <div class="div1">
-                    <div class="b1 select_cat btn_brd_blk" href="questions?cat="></div>
-                    <!-- <a class="b1 select_cat btn_brd_blk" href="questions?cat="></a> -->
-
-                    <div class="b2 select_cat btn_brd_blk"></div>
+                    <div class="b1 select_cat btn_brd_blk" onclick="window.location.href= 'questions.html?cat='+categories[0].id"></div>
+                    <div class="b2 select_cat btn_brd_blk" onclick="window.location.href= 'questions.html?cat='+categories[1].id" ></div>
                 </div>
                 <div class="div2">
-                    <div class="b3 select_cat btn_brd_blk"></div>
-                    <div class="b4 select_cat btn_brd_blk"></div>
+                    <div class="b3 select_cat btn_brd_blk" onclick="window.location.href= 'questions.html?cat='+categories[2].id"></div>
+                    <div class="b4 select_cat btn_brd_blk" onclick="window.location.href= 'questions.html?cat='+categories[3].id"></div>
                 </div>
 
-                <span class="reload shadow" onclick="window.location.reload()"></span>
+                <span class="reload rotate-infinite shadow" onclick="window.location.reload()"></span>
             
         </section>
 
