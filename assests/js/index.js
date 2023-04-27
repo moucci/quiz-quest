@@ -129,7 +129,7 @@ fetch('https://quiz.freefakeapi.io/api/categories?random=true', {
 }).catch((err) => {
     console.log(err)
     alert("Une erreur est survenue lors de la récupération des catégories, ce n'est pas de ma faute." +
-        "Veuillez voir le problème avec #hugo , walah c'est lui ");
+        "Veuillez voir le problème avec #hamid , walah c'est lui ");
 });
 
 
