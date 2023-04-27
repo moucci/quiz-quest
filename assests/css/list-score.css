@@ -17,6 +17,16 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
+  /**
+    animation zoom in zoom
+   */
+  /**
+    animation ratate any element
+   */
+  /**
+    block loader with image  without animation
+    display ,per default block && position : absolute
+   */
 }
 body main {
   overflow: hidden;
@@ -31,13 +41,13 @@ body .txt-dinamouse {
 body .btn {
   text-decoration: none;
   color: white;
-  background-color: rgba(51, 106, 114, 0.7);
+  background-color: rgba(51, 106, 114, 0.5);
   padding: 0px 30px;
   border-radius: 25px;
   font-size: 20px;
 }
 body .btn_brd_blk {
-  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+  text-shadow: rgb(0, 0, 0) 4px 0px 0px, rgb(0, 0, 0) 3.87565px 0.989616px 0px, rgb(0, 0, 0) 3.51033px 1.9177px 0px, rgb(0, 0, 0) 2.92676px 2.72656px 0px, rgb(0, 0, 0) 2.16121px 3.36588px 0px, rgb(0, 0, 0) 1.26129px 3.79594px 0px, rgb(0, 0, 0) 0.282949px 3.98998px 0px, rgb(0, 0, 0) -0.712984px 3.93594px 0px, rgb(0, 0, 0) -1.66459px 3.63719px 0px, rgb(0, 0, 0) -2.51269px 3.11229px 0px, rgb(0, 0, 0) -3.20457px 2.39389px 0px, rgb(0, 0, 0) -3.69721px 1.52664px 0px, rgb(0, 0, 0) -3.95997px 0.56448px 0px, rgb(0, 0, 0) -3.97652px -0.432781px 0px, rgb(0, 0, 0) -3.74583px -1.40313px 0px, rgb(0, 0, 0) -3.28224px -2.28625px 0px, rgb(0, 0, 0) -2.61457px -3.02721px 0px, rgb(0, 0, 0) -1.78435px -3.57996px 0px, rgb(0, 0, 0) -0.843183px -3.91012px 0px, rgb(0, 0, 0) 0.150409px -3.99717px 0px, rgb(0, 0, 0) 1.13465px -3.8357px 0px, rgb(0, 0, 0) 2.04834px -3.43574px 0px, rgb(0, 0, 0) 2.83468px -2.82216px 0px, rgb(0, 0, 0) 3.44477px -2.03312px 0px, rgb(0, 0, 0) 3.84068px -1.11766px 0px, rgb(0, 0, 0) 3.9978px -0.132717px 0px;
 }
 body .shadow {
   box-shadow: 1px 3px 7px #000;
@@ -58,6 +68,38 @@ body .rotate {
     transform: scale(0.8, 0.8);
   }
 }
+@keyframes rotate-infinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body .rotate-infinite {
+  animation: rotate-infinite 2s linear infinite;
+}
+body .reload {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.29);
+  display: block;
+  position: absolute;
+  top: 80%;
+  right: 35%;
+  border-radius: 50%;
+  background: url("../img/reload.svg") no-repeat center;
+  background-size: 70%;
+  filter: brightness(0) invert(1);
+}
+body .reload:active, body .reload:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.09);
+  background-size: 74%;
+}
+body .reload.shadow {
+  box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.67) !important;
+}
 
 main {
   display: flex;
@@ -70,7 +112,7 @@ main ul.list-score-ul {
   margin: 0;
   width: 90%;
   min-height: 50vh;
-  background-color: rgba(93, 155, 164, 0.7);
+  background-color: rgba(93, 155, 164, 0.5);
   border-radius: 25px;
   list-style-type: none;
   padding: 60px 20px;
