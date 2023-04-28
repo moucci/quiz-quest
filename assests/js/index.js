@@ -22,11 +22,31 @@ if (playerInStorage === null) {
     }
 
     //save data in storage
-    updateUserInStorage() ;
+    updateUserInStorage();
 
 } else {
     player = JSON.parse(playerInStorage);
 }
+
+/**
+ * bouton change lang
+ */
+let $btnLang = document.querySelector('.lang img');
+
+$btnLang.addEventListener('click', (event) => {
+    if (player.lang === 'fr_FR') {
+        player.lang = 'en_US';
+        event.target.src = 'assests/img/flag-en.svg';
+    } else {
+        player.lang = 'fr_FR';
+        event.target.src = 'assests/img/flag-fr.svg';
+    }
+    localStorage.player = JSON.stringify(player);
+})
+
+//set btn lang
+$btnLang.src = (player.lang === 'fr_FR') ? 'assests/img/flag-fr.svg' : 'assests/img/flag-en.svg'
+
 
 /**
  * get element INPUT for name player
@@ -84,7 +104,7 @@ function enableinput() {
 
 
         //save dada in storage
-        updateUserInStorage() ;
+        updateUserInStorage();
 
     }
 }
@@ -162,6 +182,9 @@ function generateRandomCategory(arr) {
 
     return randomItems;
 }
+
+
+
 
 
 
