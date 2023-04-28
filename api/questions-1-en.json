@@ -1,6 +1,226 @@
 [
     {
         "id": 1,
+        "text": "What is the latest version of Windows?",
+        "answers": [
+            {
+                "text": "Windows 7",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 8",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 10",
+                "is_correct": true
+            },
+            {
+                "text": "Windows XP",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "What is the function of File Explorer in Windows?",
+        "answers": [
+            {
+                "text": "Browse the internet",
+                "is_correct": false
+            },
+            {
+                "text": "Create documents",
+                "is_correct": false
+            },
+            {
+                "text": "Manage files and folders",
+                "is_correct": true
+            },
+            {
+                "text": "Watch videos",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "What is the keyboard shortcut to open Task Manager in Windows?",
+        "answers": [
+            {
+                "text": "Ctrl + Alt + Del",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + C",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + V",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + Z",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "What is the name of the graphical user interface in Windows?",
+        "answers": [
+            {
+                "text": "Aero",
+                "is_correct": true
+            },
+            {
+                "text": "Metro",
+                "is_correct": false
+            },
+            {
+                "text": "Material Design",
+                "is_correct": false
+            },
+            {
+                "text": "Flat Design",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "What is the name of the web browser integrated in Windows?",
+        "answers": [
+            {
+                "text": "Chrome",
+                "is_correct": false
+            },
+            {
+                "text": "Firefox",
+                "is_correct": false
+            },
+            {
+                "text": "Safari",
+                "is_correct": false
+            },
+            {
+                "text": "Internet Explorer",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "What is the name of the instant messaging software integrated into Windows?",
+        "answers": [
+            {
+                "text": "Skype",
+                "is_correct": false
+            },
+            {
+                "text": "Discord",
+                "is_correct": false
+            },
+            {
+                "text": "Windows Live Messenger",
+                "is_correct": true
+            },
+            {
+                "text": "Telegram",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "What is the name of the default file system used by Windows?",
+        "answers": [
+            {
+                "text": "NTFS",
+                "is_correct": true
+            },
+            {
+                "text": "FAT32",
+                "is_correct": false
+            },
+            {
+                "text": "exFAT",
+                "is_correct": false
+            },
+            {
+                "text": "FAT16",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "What is the keyboard shortcut for copying an item in Windows?",
+        "answers": [
+            {
+                "text": "Ctrl + X",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + V",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + C",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + Z",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "What is the command to access the command prompt in Windows?",
+        "answers": [
+            {
+                "text": "cmd.exe",
+                "is_correct": true
+            },
+            {
+                "text": "powershell.exe",
+                "is_correct": false
+            },
+            {
+                "text": "terminal.exe",
+                "is_correct": false
+            },
+            {
+                "text": "console.exe",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "What is the function of the Windows key on the keyboard?",
+        "answers": [
+            {
+                "text": "Open the Start menu",
+                "is_correct": true
+            },
+            {
+                "text": "Show the desktop",
+                "is_correct": false
+            },
+            {
+                "text": "Activate full screen mode",
+                "is_correct": false
+            },
+            {
+                "text": "Open File Explorer",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 11,
         "text": "How to open Task Manager on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -23,7 +243,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 12,
         "text": "What is the command to display the IP address on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -46,7 +266,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 13,
         "text": "What is the keyboard shortcut to show the Desktop on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -69,7 +289,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 14,
         "text": "How to open Command Prompt on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -92,7 +312,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 15,
         "text": "How to restart Windows in Safe Mode?",
         "categories": "/api/categories/3",
         "answers": [
@@ -115,7 +335,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 16,
         "text": "What is the name of the latest version of Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -138,7 +358,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 17,
         "text": "What is the key combination to open the task manager on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -161,7 +381,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 18,
         "text": "How to access the system settings on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -184,7 +404,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 19,
         "text": "What is the command to display the IP address of a computer on Windows?",
         "categories": "/api/categories/3",
         "answers": [
@@ -207,7 +427,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 20,
         "text": "How do I uninstall a program on Windows?",
         "categories": "/api/categories/3",
         "answers": [

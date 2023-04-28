@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "text": "What is MySQL?",
+    "answers": [
+      {
+        "text": "An operating system",
+        "is_correct": false
+      },
+      {
+        "text": "A database server",
+        "is_correct": true
+      },
+      {
+        "text": "A web development tool",
+        "is_correct": false
+      },
+      {
+        "text": "A JavaScript framework",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "What is the query language used to interact with MySQL?",
+    "answers": [
+      {
+        "text": "PHP",
+        "is_correct": false
+      },
+      {
+        "text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "text": "SQL",
+        "is_correct": true
+      },
+      {
+        "text": "Python",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "What is the command to create a new MySQL database?",
+    "answers": [
+      {
+        "text": "CREATE DATABASE",
+        "is_correct": true
+      },
+      {
+        "text": "NEW DATABASE",
+        "is_correct": false
+      },
+      {
+        "text": "MAKE DATABASE",
+        "is_correct": false
+      },
+      {
+        "text": "ADD DATABASE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "How to delete a MySQL database?",
+    "answers": [
+      {
+        "text": "DELETE DATABASE",
+        "is_correct": false
+      },
+      {
+        "text": "DROP DATABASE",
+        "is_correct": true
+      },
+      {
+        "text": "REMOVE DATABASE",
+        "is_correct": false
+      },
+      {
+        "text": "ERASE DATABASE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "How to add a new table to a MySQL database?",
+    "answers": [
+      {
+        "text": "ADD TABLE",
+        "is_correct": false
+      },
+      {
+        "text": "CREATE TABLE",
+        "is_correct": true
+      },
+      {
+        "text": "MAKE TABLE",
+        "is_correct": false
+      },
+      {
+        "text": "NEW TABLE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "What is the command to add a new column to a MySQL table?",
+    "answers": [
+      {
+        "text": "ADD COLUMN",
+        "is_correct": true
+      },
+      {
+        "text": "CREATE COLUMN",
+        "is_correct": false
+      },
+      {
+        "text": "MAKE COLUMN",
+        "is_correct": false
+      },
+      {
+        "text": "NEW COLUMN",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "What is the popular open-source graphical tool for managing MySQL databases?",
+    "answers": [
+      {
+        "text": "phpMyAdmin",
+        "is_correct": true
+      },
+      {
+        "text": "MySQL Workbench",
+        "is_correct": false
+      },
+      {
+        "text": "HeidiSQL",
+        "is_correct": false
+      },
+      {
+        "text": "Navicat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "What is an index in a MySQL database?",
+    "answers": [
+      {
+        "text": "A list of all records in a table",
+        "is_correct": false
+      },
+      {
+        "text": "A way to optimize searches in a table",
+        "is_correct": true
+      },
+      {
+        "text": "An SQL statement to select records",
+        "is_correct": false
+      },
+      {
+        "text": "A way to export data from a table",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "What is the command to select all columns in a MySQL table?",
+    "answers": [
+      {
+        "text": "SELECT * FROM table_name",
+        "is_correct": true
+      },
+      {
+        "text": "SELECT ALL FROM table_name",
+        "is_correct": false
+      },
+      {
+        "text": "SELECT COLUMNS FROM table_name",
+        "is_correct": false
+      },
+      {
+        "text": "SELECT table_name",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "What is the recommended backup format for MySQL databases?",
+    "answers": [
+      {
+        "text": "CSV",
+        "is_correct": false
+      },
+      {
+        "text": "JSON",
+        "is_correct": false
+      },
+      {
+        "text": "XML",
+        "is_correct": false
+      },
+      {
+        "text": "SQL",
+        "is_correct": true
+      }
+    ]
+  }
+]
