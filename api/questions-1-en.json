@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "text": "How to open Task Manager on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Ctrl + Shift + Esc",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + Alt + Del",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + Alt + Suppr",
+                "is_correct": false
+            },
+            {
+                "text": "Ctrl + Shift + Del",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "What is the command to display the IP address on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "ipconfig",
+                "is_correct": true
+            },
+            {
+                "text": "ifconfig",
+                "is_correct": false
+            },
+            {
+                "text": "netstat",
+                "is_correct": false
+            },
+            {
+                "text": "ping",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "What is the keyboard shortcut to show the Desktop on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Windows + D",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + D",
+                "is_correct": false
+            },
+            {
+                "text": "Alt + D",
+                "is_correct": false
+            },
+            {
+                "text": "Shift + D",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "How to open Command Prompt on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "By typing cmd in the search bar",
+                "is_correct": true
+            },
+            {
+                "text": "By pressing Windows + R and typing cmd",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Windows + E and typing cmd",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Windows + X and selecting Command Prompt",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "How to restart Windows in Safe Mode?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "By pressing F8 key during startup",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Shift + F8 key during startup",
+                "is_correct": true
+            },
+            {
+                "text": "By pressing F5 key during startup",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing F10 key during startup",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "What is the name of the latest version of Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Windows 10",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 11",
+                "is_correct": true
+            },
+            {
+                "text": "Windows 12",
+                "is_correct": false
+            },
+            {
+                "text": "Windows 13",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "What is the key combination to open the task manager on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Ctrl + Shift + Esc",
+                "is_correct": true
+            },
+            {
+                "text": "Ctrl + Alt + Del",
+                "is_correct": false
+            },
+            {
+                "text": "Alt + F4",
+                "is_correct": false
+            },
+            {
+                "text": "Windows + R",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "How to access the system settings on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "By clicking on the Settings icon in the Start menu",
+                "is_correct": true
+            },
+            {
+                "text": "By clicking on the battery icon in the taskbar",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the F1 key",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the F2 key",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "What is the command to display the IP address of a computer on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "ipconfig",
+                "is_correct": true
+            },
+            {
+                "text": "ifconfig",
+                "is_correct": false
+            },
+            {
+                "text": "ping",
+                "is_correct": false
+            },
+            {
+                "text": "tracert",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "How do I uninstall a program on Windows?",
+        "categories": "/api/categories/3",
+        "answers": [
+            {
+                "text": "Using the Control Panel",
+                "is_correct": true
+            },
+            {
+                "text": "By deleting the program file",
+                "is_correct": false
+            },
+            {
+                "text": "Using the uninstall command",
+                "is_correct": false
+            },
+            {
+                "text": "Using the remove command",
+                "is_correct": false
+            }
+        ]
+    }
+]

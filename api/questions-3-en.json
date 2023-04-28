@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "text": "What is the name of the latest version of MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "MacOS Mojave",
+                "is_correct": false
+            },
+            {
+                "text": "MacOS Catalina",
+                "is_correct": false
+            },
+            {
+                "text": "MacOS Big Sur",
+                "is_correct": true
+            },
+            {
+                "text": "MacOS Monterey",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "What is the key combination to take a screenshot on MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "Cmd + C",
+                "is_correct": false
+            },
+            {
+                "text": "Cmd + V",
+                "is_correct": false
+            },
+            {
+                "text": "Cmd + A",
+                "is_correct": false
+            },
+            {
+                "text": "Cmd + Shift + 3",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "How do you access the control center on MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "By clicking the icon in the menu bar",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the F1 key",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the F2 key",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the Control key",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "How do you open the terminal on MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "By pressing the Cmd + T keys",
+                "is_correct": true
+            },
+            {
+                "text": "By pressing the Cmd + R keys",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the Cmd + A keys",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the Cmd + S keys",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "What is the latest generation of processors used by Macs?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "Intel",
+                "is_correct": false
+            },
+            {
+                "text": "AMD",
+                "is_correct": false
+            },
+            {
+                "text": "M1",
+                "is_correct": true
+            },
+            {
+                "text": "Qualcomm",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "What is the MacOS feature that allows grouping multiple windows of the same application under a single icon in the Dock?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "Mission Control",
+                "is_correct": false
+            },
+            {
+                "text": "Expose",
+                "is_correct": false
+            },
+            {
+                "text": "Split View",
+                "is_correct": false
+            },
+            {
+                "text": "App Exposé",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "How to turn off a Mac?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "By pressing the power button",
+                "is_correct": true
+            },
+            {
+                "text": "By closing the laptop lid",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing the Escape key",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Control + E",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "What is the MacOS feature that allows quick access to frequently used files and applications?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "Finder",
+                "is_correct": false
+            },
+            {
+                "text": "Launchpad",
+                "is_correct": true
+            },
+            {
+                "text": "Spotlight",
+                "is_correct": false
+            },
+            {
+                "text": "Dock",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "How to rename a file on MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "By double-clicking on the file name",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Control + N",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Control + R",
+                "is_correct": false
+            },
+            {
+                "text": "By clicking once on the file name, then clicking again on the name to edit it",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "How to empty the trash on MacOS?",
+        "categories": "/api/categories/1",
+        "answers": [
+            {
+                "text": "By right-clicking on the trash and selecting 'Empty Trash'",
+                "is_correct": true
+            },
+            {
+                "text": "By pressing Cmd + E",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Cmd + Shift + 3",
+                "is_correct": false
+            },
+            {
+                "text": "By pressing Cmd + R",
+                "is_correct": false
+            }
+        ]
+    }
+]

@@ -18,7 +18,7 @@ if (playerInStorage === null) {
     player = {
         name: "anonyme",
         score: '0',
-        lang: 'fr_FR'
+        lang: "en_US",
     }
 
     //save data in storage
@@ -185,6 +185,11 @@ function generateRandomCategory(arr) {
 
 
 
+
+
+fetch('api/Questions.json').then(response => {
+    return response.json()
+})
 
 
 

@@ -1,225 +1,222 @@
-{
-    "category": "Systèmes d'exploitation",
-    "questions": [
-        {
-            "id": 1,
-            "text": "Qu'est-ce qu'un système d'exploitation ?",
-            "answers": [
-                {
-                    "text": "Un logiciel qui permet de naviguer sur Internet",
-                    "is_correct": false
-                },
-                {
-                    "text": "Un logiciel qui permet de créer des documents",
-                    "is_correct": false
-                },
-                {
-                    "text": "Un logiciel qui permet de gérer les ressources matérielles d'un ordinateur",
-                    "is_correct": true
-                },
-                {
-                    "text": "Un logiciel qui permet de lire des vidéos",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "text": "Quel est le système d'exploitation le plus utilisé sur les ordinateurs personnels ?",
-            "answers": [
-                {
-                    "text": "Windows",
-                    "is_correct": true
-                },
-                {
-                    "text": "macOS",
-                    "is_correct": false
-                },
-                {
-                    "text": "Linux",
-                    "is_correct": false
-                },
-                {
-                    "text": "Android",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "text": "Quel est le système d'exploitation mobile développé par Apple ?",
-            "answers": [
-                {
-                    "text": "Android",
-                    "is_correct": false
-                },
-                {
-                    "text": "iOS",
-                    "is_correct": true
-                },
-                {
-                    "text": "Windows Phone",
-                    "is_correct": false
-                },
-                {
-                    "text": "Blackberry OS",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "text": "Quel est le système d'exploitation libre le plus connu ?",
-            "answers": [
-                {
-                    "text": "Windows",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS",
-                    "is_correct": false
-                },
-                {
-                    "text": "Linux",
-                    "is_correct": true
-                },
-                {
-                    "text": "FreeBSD",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "text": "Quel est le système d'exploitation utilisé par les serveurs web les plus populaires ?",
-            "answers": [
-                {
-                    "text": "Windows Server",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS Server",
-                    "is_correct": false
-                },
-                {
-                    "text": "Ubuntu Server",
-                    "is_correct": true
-                },
-                {
-                    "text": "Red Hat Enterprise Linux",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "text": "Quelle est la principale différence entre Windows et macOS ?",
-            "answers": [
-                {
-                    "text": "Windows est plus facile à utiliser",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS est plus stable",
-                    "is_correct": true
-                },
-                {
-                    "text": "Windows est plus rapide",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS est plus sécurisé",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "text": "Quel est le système d'exploitation le plus utilisé sur les serveurs web ?",
-            "answers": [
-                {
-                    "text": "Windows Server",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS Server",
-                    "is_correct": false
-                },
-                {
-                    "text": "Linux",
-                    "is_correct": true
-                },
-                {
-                    "text": "FreeBSD",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "text": "Quel est le système d'exploitation mobile développé par Google ?",
-            "answers": [
-                {
-                    "text": "iOS",
-                    "is_correct": false
-                },
-                {
-                    "text": "Android",
-                    "is_correct": true
-                },
-                {
-                    "text": "Windows Phone",
-                    "is_correct": false
-                },
-                {
-                    "text": "Blackberry OS",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "text": "Quel est le système d'exploitation utilisé par les supercalculateurs les plus puissants du monde ?",
-            "answers": [
-                {
-                    "text": "Windows",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS",
-                    "is_correct": false
-                },
-                {
-                    "text": "Linux",
-                    "is_correct": true
-                },
-                {
-                    "text": "FreeBSD",
-                    "is_correct": false
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "text": "Quel est le système d'exploitation utilisé par les ordinateurs de la NASA ?",
-            "answers": [
-                {
-                    "text": "Windows",
-                    "is_correct": false
-                },
-                {
-                    "text": "macOS",
-                    "is_correct": false
-                },
-                {
-                    "text": "Linux",
-                    "is_correct": true
-                },
-                {
-                    "text": "FreeBSD",
-                    "is_correct": false
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "text": "Qu'est-ce qu'un système d'exploitation ?",
+        "answers": [
+            {
+                "text": "Un logiciel qui permet de naviguer sur Internet",
+                "is_correct": false
+            },
+            {
+                "text": "Un logiciel qui permet de créer des documents",
+                "is_correct": false
+            },
+            {
+                "text": "Un logiciel qui permet de gérer les ressources matérielles d'un ordinateur",
+                "is_correct": true
+            },
+            {
+                "text": "Un logiciel qui permet de lire des vidéos",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Quel est le système d'exploitation le plus utilisé sur les ordinateurs personnels ?",
+        "answers": [
+            {
+                "text": "Windows",
+                "is_correct": true
+            },
+            {
+                "text": "macOS",
+                "is_correct": false
+            },
+            {
+                "text": "Linux",
+                "is_correct": false
+            },
+            {
+                "text": "Android",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Quel est le système d'exploitation mobile développé par Apple ?",
+        "answers": [
+            {
+                "text": "Android",
+                "is_correct": false
+            },
+            {
+                "text": "iOS",
+                "is_correct": true
+            },
+            {
+                "text": "Windows Phone",
+                "is_correct": false
+            },
+            {
+                "text": "Blackberry OS",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Quel est le système d'exploitation libre le plus connu ?",
+        "answers": [
+            {
+                "text": "Windows",
+                "is_correct": false
+            },
+            {
+                "text": "macOS",
+                "is_correct": false
+            },
+            {
+                "text": "Linux",
+                "is_correct": true
+            },
+            {
+                "text": "FreeBSD",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Quel est le système d'exploitation utilisé par les serveurs web les plus populaires ?",
+        "answers": [
+            {
+                "text": "Windows Server",
+                "is_correct": false
+            },
+            {
+                "text": "macOS Server",
+                "is_correct": false
+            },
+            {
+                "text": "Ubuntu Server",
+                "is_correct": true
+            },
+            {
+                "text": "Red Hat Enterprise Linux",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Quelle est la principale différence entre Windows et macOS ?",
+        "answers": [
+            {
+                "text": "Windows est plus facile à utiliser",
+                "is_correct": false
+            },
+            {
+                "text": "macOS est plus stable",
+                "is_correct": true
+            },
+            {
+                "text": "Windows est plus rapide",
+                "is_correct": false
+            },
+            {
+                "text": "macOS est plus sécurisé",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Quel est le système d'exploitation le plus utilisé sur les serveurs web ?",
+        "answers": [
+            {
+                "text": "Windows Server",
+                "is_correct": false
+            },
+            {
+                "text": "macOS Server",
+                "is_correct": false
+            },
+            {
+                "text": "Linux",
+                "is_correct": true
+            },
+            {
+                "text": "FreeBSD",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Quel est le système d'exploitation mobile développé par Google ?",
+        "answers": [
+            {
+                "text": "iOS",
+                "is_correct": false
+            },
+            {
+                "text": "Android",
+                "is_correct": true
+            },
+            {
+                "text": "Windows Phone",
+                "is_correct": false
+            },
+            {
+                "text": "Blackberry OS",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Quel est le système d'exploitation utilisé par les supercalculateurs les plus puissants du monde ?",
+        "answers": [
+            {
+                "text": "Windows",
+                "is_correct": false
+            },
+            {
+                "text": "macOS",
+                "is_correct": false
+            },
+            {
+                "text": "Linux",
+                "is_correct": true
+            },
+            {
+                "text": "FreeBSD",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Quel est le système d'exploitation utilisé par les ordinateurs de la NASA ?",
+        "answers": [
+            {
+                "text": "Windows",
+                "is_correct": false
+            },
+            {
+                "text": "macOS",
+                "is_correct": false
+            },
+            {
+                "text": "Linux",
+                "is_correct": true
+            },
+            {
+                "text": "FreeBSD",
+                "is_correct": false
+            }
+        ]
+    }
+]
