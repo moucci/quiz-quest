@@ -117,7 +117,7 @@ main header {
 main header .lang {
   display: inline-block;
   height: 40px;
-  width: 40px;
+  width: px;
   cursor: pointer;
 }
 main header h1 {
