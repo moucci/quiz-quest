@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "text": "Qu'est-ce que HTML?",
+        "answers": [
+            {
+                "text": "Un langage de balisage utilisé pour créer des pages Web",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Qu'est-ce que CSS?",
+        "answers": [
+            {
+                "text": "Un langage de feuille de style utilisé pour mettre en forme des pages Web",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Qu'est-ce que JavaScript?",
+        "answers": [
+            {
+                "text": "Un langage de programmation utilisé pour créer des fonctionnalités interactives sur les pages Web",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de feuille de style utilisé pour mettre en forme des pages Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Qu'est-ce que Bootstrap?",
+        "answers": [
+            {
+                "text": "Un framework CSS utilisé pour créer des sites Web réactifs",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Qu'est-ce que jQuery?",
+        "answers": [
+            {
+                "text": "Une bibliothèque JavaScript utilisée pour simplifier la manipulation du DOM et la gestion des événements",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de feuille de style utilisé pour mettre en forme des pages Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Qu'est-ce que PHP?",
+        "answers": [
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web côté serveur",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de feuille de style utilisé pour mettre en forme des pages Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Qu'est-ce que le responsive design?",
+        "answers": [
+            {
+                "text": "Une technique de conception de sites Web qui permet d'optimiser l'affichage sur différents appareils",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Qu'est-ce qu'un CMS?",
+        "answers": [
+            {
+                "text": "Un système de gestion de contenu utilisé pour créer et gérer des sites Web",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Qu'est-ce que Git?",
+        "answers": [
+            {
+                "text": "Un système de contrôle de version utilisé pour gérer le code source des projets de développement",
+                "is_correct": true
+            },
+            {
+                "text": "Un langage de programmation utilisé pour créer des applications Web",
+                "is_correct": false
+            },
+            {
+                "text": "Un système de gestion de base de données",
+                "is_correct": false
+            },
+            {
+                "text": "Un protocole de communication entre serveurs",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Qu'est-ce que le développement full-stack?",
+        "answers": [
+            {
+                "text": "Le développement d'applications Web qui implique la gestion de la pile complète de technologies, du front-end au back-end",
+                "is_correct": true
+            },
+            {
+                "text": "Le développement d'applications mobiles pour différentes plateformes",
+                "is_correct": false
+            },
+            {
+                "text": "Le développement de jeux vidéo pour consoles et PC",
+                "is_correct": false
+            },
+            {
+                "text": "Le développement de logiciels de bureau pour différents systèmes d'exploitation",
+                "is_correct": false
+            }
+        ]
+    }
+]
