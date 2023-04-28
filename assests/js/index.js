@@ -87,8 +87,9 @@ function enableinput() {
 
 
     if (input.disabled) {
-
         input.disabled = false;
+        document.querySelector('.buttons').style.display = "none";
+
         img.setAttribute('src', pathImg);
         this.style.opacity = "1"
 
@@ -102,6 +103,7 @@ function enableinput() {
             player.name = input.value;
         }
 
+        document.querySelector('.buttons').style.display = "block";
 
         //save dada in storage
         updateUserInStorage();
@@ -182,8 +184,6 @@ function generateRandomCategory(arr) {
 
     return randomItems;
 }
-
-
 
 
 
